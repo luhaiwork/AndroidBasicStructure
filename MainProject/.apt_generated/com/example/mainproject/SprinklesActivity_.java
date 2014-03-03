@@ -77,11 +77,11 @@ public final class SprinklesActivity_
     @Override
     public void onViewChanged(HasViews hasViews) {
         et_search = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_search));
+        btn_add = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_add));
         lv_data = ((ListView) hasViews.findViewById(com.example.mainproject.R.id.lv_data));
+        et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
         et_valforedit = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_valforedit));
         btn_edit = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_edit));
-        et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
-        btn_add = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_add));
         {
             View view = hasViews.findViewById(com.example.mainproject.R.id.btn_edit);
             if (view!= null) {
