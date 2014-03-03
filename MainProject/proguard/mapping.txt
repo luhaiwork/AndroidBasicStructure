@@ -199,7 +199,6 @@ android.support.v4.app.FragmentContainer -> a.a.a.a.m:
     android.view.View findViewById(int) -> a
 android.support.v4.app.FragmentManager -> a.a.a.a.n:
     android.support.v4.app.FragmentTransaction beginTransaction() -> a
-    android.support.v4.app.Fragment findFragmentByTag(java.lang.String) -> a
 android.support.v4.app.FragmentManager$OnBackStackChangedListener -> a.a.a.a.o:
 android.support.v4.app.FragmentManagerImpl -> a.a.a.a.p:
     boolean DEBUG -> a

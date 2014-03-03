@@ -5,10 +5,14 @@
 
 package com.example.mainproject;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import com.example.mainproject.R.layout;
 import org.androidannotations.api.view.HasViews;
@@ -49,6 +53,7 @@ public final class MyFragment_
 
     private void init_(Bundle savedInstanceState) {
         OnViewChangedNotifier.registerOnViewChangedListener(this);
+        notificationManager = ((NotificationManager) getActivity().getSystemService(Context.NOTIFICATION_SERVICE));
     }
 
     @Override
@@ -64,6 +69,22 @@ public final class MyFragment_
     @Override
     public void onViewChanged(HasViews hasViews) {
         tv_testfragment = ((TextView) hasViews.findViewById(com.example.mainproject.R.id.tv_testfragment));
+        btn_test_notice = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_test_notice));
+        {
+            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_test_notice);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MyFragment_.this.btn_test_notice();
+                    }
+
+                }
+                );
+            }
+        }
         afterView();
     }
 

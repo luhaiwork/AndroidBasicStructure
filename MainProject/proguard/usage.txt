@@ -127,6 +127,7 @@ android.support.v4.app.FragmentManager:
     142:142:public android.support.v4.app.FragmentTransaction openTransaction()
     public abstract boolean executePendingTransactions()
     public abstract android.support.v4.app.Fragment findFragmentById(int)
+    public abstract android.support.v4.app.Fragment findFragmentByTag(java.lang.String)
     public abstract void popBackStack()
     public abstract boolean popBackStackImmediate()
     public abstract void popBackStack(java.lang.String,int)
