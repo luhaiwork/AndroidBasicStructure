@@ -1,4 +1,4 @@
 MyAndroidProject
 ================
 
-This is a test project working with httpasync,sprinkles,android-annotation
+This is a test project working with android-async-http,sprinkles,androidannotations.
