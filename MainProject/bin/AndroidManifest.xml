@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.mainproject.MyApplication_"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mainproject.MainActivity_"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mainproject.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity android:name="com.example.testlib.MainActivity1" >
+        </activity>
+        <activity
+            android:name="com.example.mainproject.HttpTestActivity_"
+            android:label="@string/title_activity_http_test" >
+        </activity>
+        <activity
+            android:name="com.example.mainproject.AnnotationActivity_"
+            android:label="@string/title_activity_annotation" >
+        </activity>
+        <activity
+            android:name="com.example.mainproject.SprinklesActivity_"
+            android:label="@string/title_activity_sprinkles" >
+        </activity>
+    </application>
+
+</manifest>

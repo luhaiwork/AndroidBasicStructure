@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MainProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="myval">ssssssssssssssssssss</string>
+    <string name="title_activity_http_test">HttpTestActivity</string>
+    <string name="title_activity_annotation">AnnotationActivity</string>
+    <string name="title_activity_sprinkles">SprinklesActivity</string>
+
+</resources>

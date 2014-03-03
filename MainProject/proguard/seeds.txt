@@ -1,0 +1,54 @@
+android.support.v4.app.FragmentActivity: FragmentActivity()
+com.example.mainproject.AnnotationActivity: AnnotationActivity()
+com.example.mainproject.AnnotationActivity_
+com.example.mainproject.AnnotationActivity_: AnnotationActivity_()
+com.example.mainproject.HttpTestActivity: HttpTestActivity()
+com.example.mainproject.HttpTestActivity_
+com.example.mainproject.HttpTestActivity_: HttpTestActivity_()
+com.example.mainproject.MainActivity: MainActivity()
+com.example.mainproject.MainActivity_
+com.example.mainproject.MainActivity_: MainActivity_()
+com.example.mainproject.MyApplication: MyApplication()
+com.example.mainproject.MyApplication_
+com.example.mainproject.MyApplication_: MyApplication_()
+com.example.mainproject.SettingsActivity
+com.example.mainproject.SettingsActivity: SettingsActivity()
+com.example.mainproject.SprinklesActivity: SprinklesActivity()
+com.example.mainproject.SprinklesActivity_
+com.example.mainproject.SprinklesActivity_: SprinklesActivity_()
+com.example.mainproject.models.Note
+com.example.mainproject.models.Note: java.lang.String TAG
+com.example.mainproject.models.Note: long id
+com.example.mainproject.models.Note: java.lang.String content
+com.example.mainproject.models.Note: java.util.Date createdAt
+com.example.mainproject.models.Note: java.util.Date updatedAt
+com.example.mainproject.models.Note: int tagCount
+com.example.mainproject.models.Note: Note()
+com.example.mainproject.models.Note: long getId()
+com.example.mainproject.models.Note: void setId(long)
+com.example.mainproject.models.Note: java.lang.String getContent()
+com.example.mainproject.models.Note: void setContent(java.lang.String)
+com.example.mainproject.models.Note: java.util.Date getCreatedAt()
+com.example.mainproject.models.Note: void setCreatedAt(java.util.Date)
+com.example.mainproject.models.Note: java.util.Date getUpdatedAt()
+com.example.mainproject.models.Note: void setUpdatedAt(java.util.Date)
+com.example.mainproject.models.Note: int getTagCount()
+com.example.mainproject.models.Note: void setTagCount(int)
+com.example.mainproject.models.Note: void beforeCreate()
+com.example.mainproject.models.Note: void beforeSave()
+com.example.testlib.MainActivity1
+com.example.testlib.MainActivity1: MainActivity1()
+se.emilsjolander.sprinkles.Model: Model()
+se.emilsjolander.sprinkles.Model: boolean isValid()
+se.emilsjolander.sprinkles.Model: void beforeCreate()
+se.emilsjolander.sprinkles.Model: void beforeSave()
+se.emilsjolander.sprinkles.Model: void afterDelete()
+se.emilsjolander.sprinkles.Model: boolean exists()
+se.emilsjolander.sprinkles.Model: boolean save()
+se.emilsjolander.sprinkles.Model: boolean save(se.emilsjolander.sprinkles.Transaction)
+se.emilsjolander.sprinkles.Model: void saveAsync()
+se.emilsjolander.sprinkles.Model: void saveAsync(se.emilsjolander.sprinkles.Model$OnSavedCallback)
+se.emilsjolander.sprinkles.Model: void delete()
+se.emilsjolander.sprinkles.Model: void delete(se.emilsjolander.sprinkles.Transaction)
+se.emilsjolander.sprinkles.Model: void deleteAsync()
+se.emilsjolander.sprinkles.Model: void deleteAsync(se.emilsjolander.sprinkles.Model$OnDeletedCallback)
