@@ -127,6 +127,7 @@ public final class MainActivity_
                 );
             }
         }
+        afterView();
     }
 
     public static class IntentBuilder_ {

@@ -1,19 +1,21 @@
 package com.example.mainproject;
 
+import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-import com.example.mainproject.R;
+
 import com.example.testlib.MainActivity1;
 @EActivity(R.layout.activity_main)
 public class MainActivity extends Activity{
 	private String TAG=MainActivity.class.getSimpleName().toString();
-	@Override
+	@Override	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 	}
@@ -42,5 +44,13 @@ public class MainActivity extends Activity{
 		Intent intent = new Intent(this,SprinklesActivity_.class);
 		startActivity(intent);
 	}
-
+	@AfterViews
+	void afterView(){
+//		Tag tag = new Tag("myTag");
+//		tag.save();
+//		tag.setTagName("modify tag Name ");
+//		tag.save();
+//		OneQuery<Tag> one = Query.one(Tag.class, "select * from Tag where tagId = ?", tag.getTagId());
+//		Toast.makeText(this, tag.getTagName(), Toast.LENGTH_SHORT).show();
+			}
 }

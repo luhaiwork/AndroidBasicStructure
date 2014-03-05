@@ -11,9 +11,11 @@ import org.androidannotations.annotations.ViewById;
 import se.emilsjolander.sprinkles.ManyQuery;
 import se.emilsjolander.sprinkles.Model.OnDeletedCallback;
 import se.emilsjolander.sprinkles.Query;
+import se.emilsjolander.sprinkles.Transaction;
 import android.app.Activity;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,6 +24,8 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
 import com.example.mainproject.models.Note;
+import com.example.mainproject.models.NoteTagLink;
+import com.example.mainproject.models.Tag;
 
 //页面布局
 @EActivity(R.layout.activity_sprinkles)
@@ -143,5 +147,34 @@ public class SprinklesActivity extends Activity {
 			}
 		});
 	}
-
+	@Click
+	void test_transaction(){
+		Tag tag=null;
+		Note note=null;
+		Transaction t = new Transaction();
+		boolean result = true;
+		try{
+		tag = new Tag("tag1");
+		result=result&&tag.save(t);
+		note =new Note();
+		note.setContent("note content");
+		result=result&&note.save(t);
+		NoteTagLink link = new NoteTagLink();
+		link.setNoteId(tag.getTagId());
+		link.setTagId(note.getId());
+		result=result&&link.save(t);
+		t.setSuccessful(result);
+		}catch (Exception e){
+			e.printStackTrace();
+		}finally{
+			t.finish();
+		}
+		Toast.makeText(this, "result:"+result, Toast.LENGTH_SHORT).show();
+		try{
+			note.delete();
+		}catch(Exception e){
+			e.printStackTrace();
+			Log.e("aa",e.getMessage());
+		}
+	}
 }

@@ -6,6 +6,8 @@ package com.example.mainproject;
 import org.androidannotations.annotations.EApplication;
 
 import com.example.mainproject.models.Note;
+import com.example.mainproject.models.NoteTagLink;
+import com.example.mainproject.models.Tag;
 
 import se.emilsjolander.sprinkles.Migration;
 import se.emilsjolander.sprinkles.Sprinkles;
@@ -42,6 +44,13 @@ public class MyApplication extends Application {
 		initialMigration3.dropTable(Note.class);
 		initialMigration3.createTable(Note.class);
 		sprinkles.addMigration(initialMigration3);
+		//database version4
+		Migration initialMigration4=new Migration();
+		initialMigration4.dropTable(Note.class);
+		initialMigration4.createTable(Note.class);
+		initialMigration4.createTable(Tag.class);
+		initialMigration4.createTable(NoteTagLink.class);
+		sprinkles.addMigration(initialMigration4);
 		super.onCreate();
 	}
 }

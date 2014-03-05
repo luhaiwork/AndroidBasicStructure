@@ -12,7 +12,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="sprincle test" />
+        android:text="sprincle test " />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="test transaction" android:id="@+id/test_transaction"/>
 
     <LinearLayout
         android:layout_width="match_parent"
