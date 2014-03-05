@@ -171,7 +171,8 @@ public class SprinklesActivity extends Activity {
 		}
 		Toast.makeText(this, "result:"+result, Toast.LENGTH_SHORT).show();
 		try{
-			note.delete();
+//			note.delete();
+			tag.delete();
 		}catch(Exception e){
 			e.printStackTrace();
 			Log.e("aa",e.getMessage());
