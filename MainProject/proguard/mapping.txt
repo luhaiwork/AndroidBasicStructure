@@ -362,7 +362,35 @@ android.support.v4.app.NoSaveStateFrameLayout -> a.a.a.a.A:
     android.view.ViewGroup wrap(android.view.View) -> a
     void dispatchSaveInstanceState(android.util.SparseArray) -> dispatchSaveInstanceState
     void dispatchRestoreInstanceState(android.util.SparseArray) -> dispatchRestoreInstanceState
-android.support.v4.app.SuperNotCalledException -> a.a.a.a.B:
+android.support.v4.app.NotificationCompat -> a.a.a.a.B:
+    android.support.v4.app.NotificationCompat$NotificationCompatImpl IMPL -> a
+    android.support.v4.app.NotificationCompat$NotificationCompatImpl access$000() -> a
+android.support.v4.app.NotificationCompat$Builder -> a.a.a.a.C:
+    android.content.Context mContext -> a
+    java.lang.CharSequence mContentTitle -> b
+    java.lang.CharSequence mContentText -> c
+    int mPriority -> d
+    java.util.ArrayList mActions -> e
+    android.app.Notification mNotification -> f
+    android.support.v4.app.NotificationCompat$Builder setSmallIcon(int) -> a
+    android.support.v4.app.NotificationCompat$Builder setContentTitle(java.lang.CharSequence) -> a
+    android.support.v4.app.NotificationCompat$Builder setContentText(java.lang.CharSequence) -> b
+    android.app.Notification build() -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImpl -> a.a.a.a.D:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplBase -> a.a.a.a.E:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplHoneycomb -> a.a.a.a.F:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplIceCreamSandwich -> a.a.a.a.G:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompat$NotificationCompatImplJellybean -> a.a.a.a.H:
+    android.app.Notification build(android.support.v4.app.NotificationCompat$Builder) -> a
+android.support.v4.app.NotificationCompatJellybean -> a.a.a.a.I:
+    android.app.Notification$Builder b -> a
+    void addAction(int,java.lang.CharSequence,android.app.PendingIntent) -> a
+    android.app.Notification build() -> a
+android.support.v4.app.SuperNotCalledException -> a.a.a.a.J:
 android.support.v4.content.Loader -> a.a.a.b.a:
     int mId -> a
     android.support.v4.content.Loader$OnLoadCompleteListener mListener -> b
@@ -618,7 +646,6 @@ com.example.mainproject.HttpTestActivity_$4 -> com.example.mainproject.m:
     com.example.mainproject.HttpTestActivity_ this$0 -> a
     void onClick(android.view.View) -> onClick
 com.example.mainproject.MainActivity -> com.example.mainproject.n:
-    java.lang.String TAG -> a
     void onCreate(android.os.Bundle) -> onCreate
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
     void onClick(android.view.View) -> a
@@ -651,14 +678,19 @@ com.example.mainproject.MyApplication_ -> com.example.mainproject.MyApplication_
     void onCreate() -> onCreate
 com.example.mainproject.MyFragment -> com.example.mainproject.t:
     android.widget.TextView tv_testfragment -> M
+    android.app.NotificationManager notificationManager -> N
+    void btn_test_notice() -> u
 com.example.mainproject.MyFragment_ -> com.example.mainproject.u:
-    org.androidannotations.api.view.OnViewChangedNotifier onViewChangedNotifier_ -> N
-    android.view.View contentView_ -> O
+    org.androidannotations.api.view.OnViewChangedNotifier onViewChangedNotifier_ -> O
+    android.view.View contentView_ -> P
     void onCreate(android.os.Bundle) -> b
     android.view.View findViewById(int) -> findViewById
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> a
     void onViewCreated(android.view.View,android.os.Bundle) -> a
     void onViewChanged(org.androidannotations.api.view.HasViews) -> a
+com.example.mainproject.MyFragment_$1 -> com.example.mainproject.v:
+    com.example.mainproject.MyFragment_ this$0 -> a
+    void onClick(android.view.View) -> onClick
 com.example.mainproject.SettingsActivity -> com.example.mainproject.SettingsActivity:
     android.preference.Preference$OnPreferenceChangeListener sBindPreferenceSummaryToValueListener -> a
     void onPostCreate(android.os.Bundle) -> onPostCreate
@@ -667,9 +699,9 @@ com.example.mainproject.SettingsActivity -> com.example.mainproject.SettingsActi
     boolean isSimplePreferences(android.content.Context) -> b
     void onBuildHeaders(java.util.List) -> onBuildHeaders
     void bindPreferenceSummaryToValue(android.preference.Preference) -> a
-com.example.mainproject.SettingsActivity$1 -> com.example.mainproject.v:
+com.example.mainproject.SettingsActivity$1 -> com.example.mainproject.w:
     boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
-com.example.mainproject.SprinklesActivity -> com.example.mainproject.w:
+com.example.mainproject.SprinklesActivity -> com.example.mainproject.x:
     android.widget.EditText et_val -> a
     android.widget.ListView lv_data -> b
     android.widget.EditText et_search -> c
@@ -684,10 +716,17 @@ com.example.mainproject.SprinklesActivity -> com.example.mainproject.w:
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
     void lv_dataItemClicked(android.database.Cursor) -> a
     void lv_dataItemLongClicked(android.database.Cursor) -> b
-com.example.mainproject.SprinklesActivity$1 -> com.example.mainproject.x:
+    void test_transaction() -> f
+    void test_transaction_async() -> g
+com.example.mainproject.SprinklesActivity$1 -> com.example.mainproject.y:
     com.example.mainproject.SprinklesActivity this$0 -> a
     com.example.mainproject.models.Note val$note -> b
     void onDeleted() -> a
+com.example.mainproject.SprinklesActivity$2 -> com.example.mainproject.z:
+    com.example.mainproject.SprinklesActivity this$0 -> a
+    java.lang.Boolean doInBackground$7273979() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
 com.example.mainproject.SprinklesActivity_ -> com.example.mainproject.SprinklesActivity_:
     org.androidannotations.api.view.OnViewChangedNotifier onViewChangedNotifier_ -> e
     void onCreate(android.os.Bundle) -> onCreate
@@ -695,19 +734,25 @@ com.example.mainproject.SprinklesActivity_ -> com.example.mainproject.SprinklesA
     void setContentView(android.view.View,android.view.ViewGroup$LayoutParams) -> setContentView
     void setContentView(android.view.View) -> setContentView
     void onViewChanged(org.androidannotations.api.view.HasViews) -> a
-com.example.mainproject.SprinklesActivity_$1 -> com.example.mainproject.y:
+com.example.mainproject.SprinklesActivity_$1 -> com.example.mainproject.A:
     com.example.mainproject.SprinklesActivity_ this$0 -> a
     void onClick(android.view.View) -> onClick
-com.example.mainproject.SprinklesActivity_$2 -> com.example.mainproject.z:
+com.example.mainproject.SprinklesActivity_$2 -> com.example.mainproject.B:
     com.example.mainproject.SprinklesActivity_ this$0 -> a
     void onClick(android.view.View) -> onClick
-com.example.mainproject.SprinklesActivity_$3 -> com.example.mainproject.A:
+com.example.mainproject.SprinklesActivity_$3 -> com.example.mainproject.C:
+    com.example.mainproject.SprinklesActivity_ this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.mainproject.SprinklesActivity_$4 -> com.example.mainproject.D:
+    com.example.mainproject.SprinklesActivity_ this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.example.mainproject.SprinklesActivity_$5 -> com.example.mainproject.E:
     com.example.mainproject.SprinklesActivity_ this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.example.mainproject.SprinklesActivity_$4 -> com.example.mainproject.B:
+com.example.mainproject.SprinklesActivity_$6 -> com.example.mainproject.F:
     com.example.mainproject.SprinklesActivity_ this$0 -> a
     boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
-com.example.mainproject.SprinklesActivity_$5 -> com.example.mainproject.C:
+com.example.mainproject.SprinklesActivity_$7 -> com.example.mainproject.G:
     com.example.mainproject.SprinklesActivity_ this$0 -> a
     void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
     void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
@@ -731,8 +776,26 @@ com.example.mainproject.models.Note -> com.example.mainproject.models.Note:
     void setTagCount(int) -> setTagCount
     void beforeCreate() -> beforeCreate
     void beforeSave() -> beforeSave
+com.example.mainproject.models.NoteTagLink -> com.example.mainproject.models.NoteTagLink:
+    long tagId -> tagId
+    long NoteId -> NoteId
+    long getTagId() -> getTagId
+    void setTagId(long) -> setTagId
+    long getNoteId() -> getNoteId
+    void setNoteId(long) -> setNoteId
+com.example.mainproject.models.Tag -> com.example.mainproject.models.Tag:
+    long tagId -> tagId
+    java.lang.String tagName -> tagName
+    java.util.Date createDate -> createDate
+    java.util.Date updateDate -> updateDate
+    void beforeCreate() -> beforeCreate
+    void beforeSave() -> beforeSave
+    java.lang.String getTagName() -> getTagName
+    void setTagName(java.lang.String) -> setTagName
+    long getTagId() -> getTagId
+    java.util.Date getCreateDate() -> getCreateDate
+    java.util.Date getUpdateDate() -> getUpdateDate
 com.example.testlib.MainActivity1 -> com.example.testlib.MainActivity1:
-    java.lang.String myteststr -> a
     void onCreate(android.os.Bundle) -> onCreate
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
 com.loopj.android.http.AsyncHttpClient -> com.a.a.a.a:

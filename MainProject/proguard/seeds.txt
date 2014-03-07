@@ -36,6 +36,28 @@ com.example.mainproject.models.Note: int getTagCount()
 com.example.mainproject.models.Note: void setTagCount(int)
 com.example.mainproject.models.Note: void beforeCreate()
 com.example.mainproject.models.Note: void beforeSave()
+com.example.mainproject.models.NoteTagLink
+com.example.mainproject.models.NoteTagLink: long tagId
+com.example.mainproject.models.NoteTagLink: long NoteId
+com.example.mainproject.models.NoteTagLink: NoteTagLink()
+com.example.mainproject.models.NoteTagLink: long getTagId()
+com.example.mainproject.models.NoteTagLink: void setTagId(long)
+com.example.mainproject.models.NoteTagLink: long getNoteId()
+com.example.mainproject.models.NoteTagLink: void setNoteId(long)
+com.example.mainproject.models.Tag
+com.example.mainproject.models.Tag: long tagId
+com.example.mainproject.models.Tag: java.lang.String tagName
+com.example.mainproject.models.Tag: java.util.Date createDate
+com.example.mainproject.models.Tag: java.util.Date updateDate
+com.example.mainproject.models.Tag: Tag()
+com.example.mainproject.models.Tag: Tag(java.lang.String)
+com.example.mainproject.models.Tag: void beforeCreate()
+com.example.mainproject.models.Tag: void beforeSave()
+com.example.mainproject.models.Tag: java.lang.String getTagName()
+com.example.mainproject.models.Tag: void setTagName(java.lang.String)
+com.example.mainproject.models.Tag: long getTagId()
+com.example.mainproject.models.Tag: java.util.Date getCreateDate()
+com.example.mainproject.models.Tag: java.util.Date getUpdateDate()
 com.example.testlib.MainActivity1
 com.example.testlib.MainActivity1: MainActivity1()
 se.emilsjolander.sprinkles.Model: Model()

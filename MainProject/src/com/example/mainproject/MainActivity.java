@@ -7,11 +7,8 @@ import org.androidannotations.annotations.EActivity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-
-import com.example.testlib.MainActivity1;
 @EActivity(R.layout.activity_main)
 public class MainActivity extends Activity{
 	private String TAG=MainActivity.class.getSimpleName().toString();
@@ -31,8 +28,8 @@ public class MainActivity extends Activity{
 			Intent intent = new Intent(this,AnnotationActivity_.class);
 			startActivity(intent);
 		}else if(v.getId()==R.id.testid2){
-			Log.e(TAG, MainActivity1.myteststr);
-			Intent intent = new Intent(this,MainActivity1.class);
+//			Intent intent = new Intent(this,MainActivity1.class);
+			Intent intent = new Intent("com.example.testlib.MainActivity1");
 			startActivity(intent);
 		}else if(v.getId()==R.id.btn_testhttp){
 			Intent intent = new Intent(MainActivity.this,HttpTestActivity_.class);

@@ -30,6 +30,10 @@
             android:label="@string/title_activity_settings" >
         </activity>
         <activity android:name="com.example.testlib.MainActivity1" >
+            <intent-filter>
+                <action android:name="com.example.testlib.MainActivity1"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.example.mainproject.HttpTestActivity_"

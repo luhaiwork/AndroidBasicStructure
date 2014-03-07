@@ -1,9 +1,7 @@
 package com.example.testlib;
 
-import com.example.mainproject.MainActivity;
-
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class MainActivity1 extends Activity {
@@ -12,7 +10,6 @@ public class MainActivity1 extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main2);
-		myteststr="88888888";
 	}
 
 	@Override
