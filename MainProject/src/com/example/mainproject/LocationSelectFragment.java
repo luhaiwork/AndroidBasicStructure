@@ -61,7 +61,7 @@ public class LocationSelectFragment extends Fragment {
 		for (Province province : provinces) {
 			Log.e("test","province-name:"+province.getProvinceName()+"-code:"+province.getProvinceCode());
 		}
-		ArrayAdapter adp = new ArrayAdapter<Province>(getActivity(), resource, textViewResourceId)
-		sp_province.setAdapter(pad);
+		ArrayAdapter adp = new ArrayAdapter<Province>(getActivity(), android.R.layout.simple_spinner_item,provinces);
+		sp_province.setAdapter(adp);
 	}
 }

@@ -25,5 +25,13 @@ public class Province {
 	public void setProvinceName(String provinceName) {
 		this.provinceName = provinceName;
 	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+//		return super.toString();
+		return provinceName+"-"+provinceCode;
+	}
 	
 }
