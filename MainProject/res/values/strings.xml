@@ -8,5 +8,7 @@
     <string name="title_activity_http_test">HttpTestActivity</string>
     <string name="title_activity_annotation">AnnotationActivity</string>
     <string name="title_activity_sprinkles">SprinklesActivity</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
 
 </resources>
