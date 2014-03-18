@@ -29,7 +29,7 @@
             android:name="com.example.mainproject.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
-        <activity android:name="com.example.testlib.MainActivity1" >
+        <activity android:name="com.example.testlib.MainActivity1_" >
             <intent-filter>
                 <action android:name="com.example.testlib.MainActivity1"/>
                 <category android:name="android.intent.category.DEFAULT" />

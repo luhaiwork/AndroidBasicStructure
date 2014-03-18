@@ -1,4 +1,8 @@
 android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
 com.example.mainproject.AnnotationActivity: AnnotationActivity()
 com.example.mainproject.AnnotationActivity_
 com.example.mainproject.AnnotationActivity_: AnnotationActivity_()
@@ -16,6 +20,22 @@ com.example.mainproject.SettingsActivity: SettingsActivity()
 com.example.mainproject.SprinklesActivity: SprinklesActivity()
 com.example.mainproject.SprinklesActivity_
 com.example.mainproject.SprinklesActivity_: SprinklesActivity_()
+com.example.mainproject.models.City
+com.example.mainproject.models.City: java.lang.String code
+com.example.mainproject.models.City: java.lang.String name
+com.example.mainproject.models.City: City()
+com.example.mainproject.models.City: java.lang.String getCode()
+com.example.mainproject.models.City: void setCode(java.lang.String)
+com.example.mainproject.models.City: java.lang.String getName()
+com.example.mainproject.models.City: void setName(java.lang.String)
+com.example.mainproject.models.District
+com.example.mainproject.models.District: java.lang.String name
+com.example.mainproject.models.District: java.lang.String code
+com.example.mainproject.models.District: District()
+com.example.mainproject.models.District: java.lang.String getName()
+com.example.mainproject.models.District: void setName(java.lang.String)
+com.example.mainproject.models.District: java.lang.String getCode()
+com.example.mainproject.models.District: void setCode(java.lang.String)
 com.example.mainproject.models.Note
 com.example.mainproject.models.Note: java.lang.String TAG
 com.example.mainproject.models.Note: long id
@@ -44,6 +64,15 @@ com.example.mainproject.models.NoteTagLink: long getTagId()
 com.example.mainproject.models.NoteTagLink: void setTagId(long)
 com.example.mainproject.models.NoteTagLink: long getNoteId()
 com.example.mainproject.models.NoteTagLink: void setNoteId(long)
+com.example.mainproject.models.Province
+com.example.mainproject.models.Province: java.lang.String provinceCode
+com.example.mainproject.models.Province: java.lang.String provinceName
+com.example.mainproject.models.Province: Province()
+com.example.mainproject.models.Province: java.lang.String getProvinceCode()
+com.example.mainproject.models.Province: void setProvinceCode(java.lang.String)
+com.example.mainproject.models.Province: java.lang.String getProvinceName()
+com.example.mainproject.models.Province: void setProvinceName(java.lang.String)
+com.example.mainproject.models.Province: java.lang.String toString()
 com.example.mainproject.models.Tag
 com.example.mainproject.models.Tag: long tagId
 com.example.mainproject.models.Tag: java.lang.String tagName
@@ -58,8 +87,9 @@ com.example.mainproject.models.Tag: void setTagName(java.lang.String)
 com.example.mainproject.models.Tag: long getTagId()
 com.example.mainproject.models.Tag: java.util.Date getCreateDate()
 com.example.mainproject.models.Tag: java.util.Date getUpdateDate()
-com.example.testlib.MainActivity1
 com.example.testlib.MainActivity1: MainActivity1()
+com.example.testlib.MainActivity1_
+com.example.testlib.MainActivity1_: MainActivity1_()
 se.emilsjolander.sprinkles.Model: Model()
 se.emilsjolander.sprinkles.Model: boolean isValid()
 se.emilsjolander.sprinkles.Model: void beforeCreate()

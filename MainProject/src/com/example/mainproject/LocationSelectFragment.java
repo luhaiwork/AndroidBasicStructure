@@ -63,5 +63,6 @@ public class LocationSelectFragment extends Fragment {
 		}
 		ArrayAdapter adp = new ArrayAdapter<Province>(getActivity(), android.R.layout.simple_spinner_item,provinces);
 		sp_province.setAdapter(adp);
+//		sp_province.set
 	}
 }
