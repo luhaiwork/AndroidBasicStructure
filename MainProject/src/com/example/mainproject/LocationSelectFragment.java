@@ -112,7 +112,8 @@ public class LocationSelectFragment extends Fragment {
 		});
 
 	}
-
+ 
+	
 	private InputStream getLocalDataXMLInputStream() {
 		AssetManager asset = getActivity().getAssets();
 		InputStream input = null;
