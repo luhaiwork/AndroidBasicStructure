@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.example.mainproject;
 
 import java.io.IOException;
@@ -41,14 +38,15 @@ public class LocationSelectFragment extends Fragment {
 	@ViewById
 	Spinner sp_district;
 	private List<Province> provinces;
-	/**cities*/
-	private List<City> cities=new ArrayList<City>();
-	/**district*/
-	private List<District> districts=new ArrayList<District>();
-	 ArrayAdapter provinceAdp;
-	 ArrayAdapter citiesAdp;
-	 ArrayAdapter districtAdp;
+	/** cities */
+	private List<City> cities = new ArrayList<City>();
+	/** district */
+	private List<District> districts = new ArrayList<District>();
+	ArrayAdapter provinceAdp;
+	ArrayAdapter citiesAdp;
+	ArrayAdapter districtAdp;
 	private String provinceCode;
+
 	@AfterViews
 	void afterView() {
 		try {
@@ -56,11 +54,14 @@ public class LocationSelectFragment extends Fragment {
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
-		provinceAdp = new ArrayAdapter<Province>(getActivity(), android.R.layout.simple_spinner_item,provinces);
+		provinceAdp = new ArrayAdapter<Province>(getActivity(),
+				android.R.layout.simple_spinner_item, provinces);
 		sp_province.setAdapter(provinceAdp);
-		citiesAdp=new ArrayAdapter<City>(getActivity(), android.R.layout.simple_spinner_item,cities);
+		citiesAdp = new ArrayAdapter<City>(getActivity(),
+				android.R.layout.simple_spinner_item, cities);
 		sp_city.setAdapter(citiesAdp);
-		districtAdp=new ArrayAdapter<District>(getActivity(),android.R.layout.simple_spinner_item,districts);
+		districtAdp = new ArrayAdapter<District>(getActivity(),
+				android.R.layout.simple_spinner_item, districts);
 		sp_district.setAdapter(districtAdp);
 		sp_province.setOnItemSelectedListener(new OnItemSelectedListener() {
 			@Override
@@ -68,10 +69,12 @@ public class LocationSelectFragment extends Fragment {
 					int position, long id) {
 				Province province = provinces.get(position);
 				try {
-					List<City> tmpCities=ParserByPULL.getCities(getLocalDataXMLInputStream(),province.getProvinceCode());
-					provinceCode=province.getProvinceCode();
+					List<City> tmpCities = ParserByPULL.getCities(
+							getLocalDataXMLInputStream(),
+							province.getProvinceCode());
+					provinceCode = province.getProvinceCode();
 					cities.clear();
-					for(int i=0;i<tmpCities.size();i++){
+					for (int i = 0; i < tmpCities.size(); i++) {
 						cities.add(tmpCities.get(i));
 					}
 					citiesAdp.notifyDataSetChanged();
@@ -79,6 +82,7 @@ public class LocationSelectFragment extends Fragment {
 					e.printStackTrace();
 				}
 			}
+
 			@Override
 			public void onNothingSelected(AdapterView<?> parent) {
 			}
@@ -89,9 +93,11 @@ public class LocationSelectFragment extends Fragment {
 					int position, long id) {
 				City city = cities.get(position);
 				try {
-					List<District> tmpDistricts=ParserByPULL.getDistricts(getLocalDataXMLInputStream(),provinceCode,city.getCode());
+					List<District> tmpDistricts = ParserByPULL.getDistricts(
+							getLocalDataXMLInputStream(), provinceCode,
+							city.getCode());
 					districts.clear();
-					for(int i=0;i<tmpDistricts.size();i++){
+					for (int i = 0; i < tmpDistricts.size(); i++) {
 						districts.add(tmpDistricts.get(i));
 					}
 					districtAdp.notifyDataSetChanged();
@@ -99,15 +105,17 @@ public class LocationSelectFragment extends Fragment {
 					e.printStackTrace();
 				}
 			}
+
 			@Override
 			public void onNothingSelected(AdapterView<?> parent) {
 			}
 		});
-		
+
 	}
-	private InputStream getLocalDataXMLInputStream(){
-		 AssetManager asset = getActivity().getAssets();
-		 InputStream input=null;
+
+	private InputStream getLocalDataXMLInputStream() {
+		AssetManager asset = getActivity().getAssets();
+		InputStream input = null;
 		try {
 			input = asset.open("basic_loaction_info.xml");
 		} catch (IOException e) {
