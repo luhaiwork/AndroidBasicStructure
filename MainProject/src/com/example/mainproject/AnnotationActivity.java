@@ -22,7 +22,7 @@ public class AnnotationActivity extends FragmentActivity {
 	MyApplication myApplication;
 	@ViewById
 	TextView tv_result;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

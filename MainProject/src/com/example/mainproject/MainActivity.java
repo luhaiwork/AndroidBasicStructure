@@ -51,9 +51,13 @@ public class MainActivity extends FragmentActivity {
 			Intent intent = new Intent(this, AnnotationActivity_.class);
 			startActivity(intent);
 		} else if (v.getId() == R.id.testid2) {
-			// Intent intent = new Intent(this,MainActivity1.class);
-			Intent intent = new Intent("com.example.testlib.MainActivity1");
-			startActivity(intent);
+			try {
+				Class.forName("com.example.testlib.MainActivity1_");
+				Intent intent = new Intent("com.example.testlib.MainActivity1");
+				startActivity(intent);
+			} catch (Exception e) {
+				Toast.makeText(MainActivity.this, "打开activity失败，检查库项目引入", Toast.LENGTH_SHORT).show();
+			}
 		} else if (v.getId() == R.id.btn_testhttp) {
 			Intent intent = new Intent(MainActivity.this,
 					HttpTestActivity_.class);
