@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="unspecified" >
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\sprinklesLib\unspecified\res" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res" >
+            <file
+                name="ic_launcher"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res\values\values.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <string name="app_name" >HttpAsyncLib
+                </string>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res\values-v11\values.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res\values-v14\values.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+    </dataSet>
+    <dataSet config="main" >
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res" >
+            <file
+                name="ic_launcher"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_drawer"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\drawable-xhdpi\ic_drawer.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_annotation"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\activity_annotation.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_http_test"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\activity_http_test.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_sprinkles"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\activity_sprinkles.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_location_select"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\fragment_location_select.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_location_select_province_line"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\fragment_location_select_province_line.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_myfragmenttop"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\fragment_myfragmenttop.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_line"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout\list_line.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="annotation"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\menu\annotation.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="http_test"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\menu\http_test.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\menu\main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="sprinkles"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\menu\sprinkles.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="title_activity_annotation" >AnnotationActivity
+                </string>
+                <string name="close" >close
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_http_test" >HttpTestActivity
+                </string>
+                <string name="title_activity_sprinkles" >SprinklesActivity
+                </string>
+                <string name="app_name" >MainProject
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="myval" >ssssssssssssssssssss
+                </string>
+                <string name="open" >open
+                </string>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\values\strings_activity_settings.xml"
+                qualifiers="" >
+                <string name="title_activity_settings" >Settings
+                </string>
+
+                <string-array name="pref_sync_frequency_values" >
+                    <item>
+15
+                    </item>
+                    <item>
+30
+                    </item>
+                    <item>
+60
+                    </item>
+                    <item>
+180
+                    </item>
+                    <item>
+360
+                    </item>
+                    <item>
+-1
+                    </item>
+                </string-array>
+
+                <string name="pref_ringtone_silent" >Silent
+                </string>
+
+                <string-array name="pref_example_list_values" >
+                    <item>
+1
+                    </item>
+                    <item>
+0
+                    </item>
+                    <item>
+-1
+                    </item>
+                </string-array>
+
+                <string name="pref_title_display_name" >Display name
+                </string>
+                <string name="pref_title_sync_frequency" >Sync frequency
+                </string>
+                <string name="pref_description_social_recommendations" >Recommendations for people to contact based on your message history
+                </string>
+                <string name="pref_header_general" >General
+                </string>
+                <string name="pref_title_add_friends_to_messages" >Add friends to messages
+                </string>
+                <string name="pref_default_display_name" >John Smith
+                </string>
+
+                <string-array name="pref_example_list_titles" >
+                    <item>
+Always
+                    </item>
+                    <item>
+When possible
+                    </item>
+                    <item>
+Never
+                    </item>
+                </string-array>
+
+                <string name="pref_title_new_message_notifications" >New message notifications
+                </string>
+                <string name="pref_title_vibrate" >Vibrate
+                </string>
+                <string name="pref_title_ringtone" >Ringtone
+                </string>
+                <string name="pref_title_social_recommendations" >Enable social recommendations
+                </string>
+                <string name="pref_header_notifications" >Notifications
+                </string>
+
+                <string-array name="pref_sync_frequency_titles" >
+                    <item>
+15 minutes
+                    </item>
+                    <item>
+30 minutes
+                    </item>
+                    <item>
+1 hour
+                    </item>
+                    <item>
+3 hours
+                    </item>
+                    <item>
+6 hours
+                    </item>
+                    <item>
+Never
+                    </item>
+                </string-array>
+
+                <string name="pref_title_system_sync_settings" >System sync settings
+                </string>
+                <string name="pref_header_data_sync" >Data &amp; sync
+                </string>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="pref_data_sync"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\xml\pref_data_sync.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_general"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\xml\pref_general.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_headers"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\xml\pref_headers.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_notification"
+                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\xml\pref_notification.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\res\rs\debug" />
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\debug\res" />
+    </dataSet>
+
+</merger>

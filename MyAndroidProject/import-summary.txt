@@ -1,0 +1,100 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From HttpAsyncLib:
+* .gitignore
+* proguard-project.txt
+From MainProject:
+* .factorypath
+* .gitignore
+* compile-libs\
+* compile-libs\androidannotations-3.0.1.jar
+* ic_launcher-web.png
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+From MyProjectLib:
+* .factorypath
+* proguard-project.txt
+From sprinklesLib:
+* .gitignore
+* build.gradle
+* gradle.properties
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In HttpAsyncLib:
+* AndroidManifest.xml => httpAsyncLib\src\main\AndroidManifest.xml
+* assets\ => httpAsyncLib\src\main\assets\
+* res\ => httpAsyncLib\src\main\res\
+* src\ => httpAsyncLib\src\main\java\
+In MyProjectLib:
+* .apt_generated\ => myProjectLib\src\main\java\
+* AndroidManifest.xml => myProjectLib\src\main\AndroidManifest.xml
+* assets\ => myProjectLib\src\main\assets\
+* lint.xml => myProjectLib\lint.xml
+* res\ => myProjectLib\src\main\res\
+* src\ => myProjectLib\src\main\java\
+In sprinklesLib:
+* AndroidManifest.xml => sprinklesLib\src\main\AndroidManifest.xml
+* assets\ => sprinklesLib\src\main\assets\
+* lint.xml => sprinklesLib\lint.xml
+* res\ => sprinklesLib\src\main\res\
+* src\ => sprinklesLib\src\main\java\
+In MainProject:
+* .apt_generated\ => mainProject\src\main\java\
+* AndroidManifest.xml => mainProject\src\main\AndroidManifest.xml
+* assets\ => mainProject\src\main\assets\
+* libs\androidannotations-api-3.0.1.jar => mainProject\libs\androidannotations-api-3.0.1.jar
+* lint.xml => mainProject\lint.xml
+* proguard-project.txt => mainProject\proguard-project.txt
+* res\ => mainProject\src\main\res\
+* src\ => mainProject\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

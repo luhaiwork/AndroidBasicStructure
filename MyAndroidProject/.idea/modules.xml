@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyAndroidProject.iml" filepath="$PROJECT_DIR$/MyAndroidProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpAsyncLib/httpAsyncLib.iml" filepath="$PROJECT_DIR$/httpAsyncLib/httpAsyncLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mainProject/mainProject.iml" filepath="$PROJECT_DIR$/mainProject/mainProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sprinklesLib/sprinklesLib.iml" filepath="$PROJECT_DIR$/sprinklesLib/sprinklesLib.iml" />
+    </modules>
+  </component>
+</project>
+

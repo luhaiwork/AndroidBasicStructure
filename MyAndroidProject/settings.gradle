@@ -1,0 +1,3 @@
+include ':httpAsyncLib'
+include ':sprinklesLib'
+include ':mainProject'

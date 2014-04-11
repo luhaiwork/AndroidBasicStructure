@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\src\main\res" />
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\build\res\rs\debug" />
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\build\res\generated\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\src\debug\res" />
+    </dataSet>
+
+</merger>
