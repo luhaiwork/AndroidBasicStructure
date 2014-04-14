@@ -2,9 +2,6 @@
 <merger>
 
     <dataSet config="unspecified" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\sprinklesLib\unspecified\assets" />
-    </dataSet>
-    <dataSet config="unspecified" >
         <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\assets" />
     </dataSet>
     <dataSet config="main" >

@@ -1,0 +1,24 @@
+# view res/layout/activity_main.xml #generated:1
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.example.mainproject.AnnotationActivity_ { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.example.mainproject.HttpTestActivity_ { <init>(...); }
+
+# view AndroidManifest.xml #generated:19
+-keep class com.example.mainproject.MainActivity_ { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class com.example.mainproject.MyApplication_ { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.example.mainproject.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.example.mainproject.SprinklesActivity_ { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.example.testlib.MainActivity1_ { <init>(...); }
+
