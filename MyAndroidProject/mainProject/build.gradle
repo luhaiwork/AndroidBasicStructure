@@ -51,10 +51,10 @@ android {
 //    }
     signingConfigs {
         release {
-            storeFile file("E:\\Development\\mykeystore\\mykeystore")
-            storePassword "luhai1992"
-            keyAlias "luhaitest"
-            keyPassword "luhai1992"
+            storeFile file("E:\\Development\\mykeystore\\mykeystoreForTest")
+            storePassword "111111"
+            keyAlias "mykeystoreForTest"
+            keyPassword "111111"
         }
     }
 
