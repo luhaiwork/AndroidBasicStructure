@@ -5,6 +5,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.Menu;
 import android.widget.TextView;
@@ -35,11 +37,14 @@ public class AnnotationActivity extends FragmentActivity {
         beginTransaction.commit();
         Log.e("test", "test");
         getActionBar().setDisplayHomeAsUpEnabled(true);
+
     }
 
     @AfterViews
     void afterViewLoad() {
         Log.e(TAG, myApplication.myVal);
+        tv_result.setText(Html.fromHtml("<a href='http://www.baidu.com'><u>测试点击链接</u></a>"));
+        tv_result.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     /*
