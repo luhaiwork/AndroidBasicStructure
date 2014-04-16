@@ -18,28 +18,247 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c3f00fa-091c-4b42-9de8-548b4a5229aa" name="Default" comment="">
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\R.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\example\httpasynclib\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\example\httpasynclib\R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\example\httpasynclib\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\example\httpasynclib\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\example\httpasynclib\R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\example\httpasynclib\R.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpClient$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpClient$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpClient$3.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpClient$InflatingEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpResponseHandler$ResponderHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\AsyncHttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\Base64$Coder.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\Base64$Decoder.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\Base64$Encoder.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\Base64.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\Base64DataException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\Base64OutputStream.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BaseJsonHttpResponseHandler$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BaseJsonHttpResponseHandler$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BaseJsonHttpResponseHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BaseJsonHttpResponseHandler$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BaseJsonHttpResponseHandler$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BaseJsonHttpResponseHandler$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BaseJsonHttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\BinaryHttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\DataAsyncHttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\FileAsyncHttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonHttpResponseHandler$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonHttpResponseHandler$1$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonHttpResponseHandler$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonHttpResponseHandler$2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonHttpResponseHandler$2$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonHttpResponseHandler$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonHttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\JsonStreamerEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\MySSLSocketFactory$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\MySSLSocketFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\PersistentCookieStore.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\RequestHandle.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\RequestParams$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\RequestParams$FileWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\RequestParams$StreamWrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\RequestParams.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\ResponseHandlerInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\RetryHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\SerializableCookie.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\SimpleMultipartEntity$FilePart.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\SimpleMultipartEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\SyncHttpClient.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\classes\com\loopj\android\http\TextHttpResponseHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\httpasynclib.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\res\crunch\drawable-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\res\crunch\drawable-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\bin\res\crunch\drawable-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\gen\com\example\httpasynclib\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\HttpAsyncLib\gen\com\example\httpasynclib\R.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\.apt_generated\com\example\mainproject\AnnotationActivity_.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\.apt_generated\com\example\mainproject\HttpTestActivity_.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\.apt_generated\com\example\mainproject\LocationSelectFragment_.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\.apt_generated\com\example\mainproject\MainActivity_.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\.apt_generated\com\example\mainproject\MyApplication_.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\.apt_generated\com\example\mainproject\MyFragment_.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\.apt_generated\com\example\mainproject\SprinklesActivity_.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\R.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\androidannotations.log" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\httpasynclib\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\httpasynclib\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\httpasynclib\R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\httpasynclib\R.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\AnnotationActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\AnnotationActivity_$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\AnnotationActivity_$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\AnnotationActivity_$3.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\AnnotationActivity_$IntentBuilder_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\AnnotationActivity_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity$3.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity$4.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity_$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity_$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity_$3.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity_$4.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity_$IntentBuilder_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\HttpTestActivity_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\LocationSelectFragment$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\LocationSelectFragment$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\LocationSelectFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\LocationSelectFragment_$FragmentBuilder_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\LocationSelectFragment_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity_$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity_$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity_$3.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity_$4.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity_$5.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity_$IntentBuilder_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MainActivity_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MyApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MyApplication_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MyFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MyFragment_$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MyFragment_$FragmentBuilder_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\MyFragment_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$array.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$dimen.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$id.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$layout.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$menu.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$style.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R$xml.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\R.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SettingsActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SettingsActivity$DataSyncPreferenceFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SettingsActivity$GeneralPreferenceFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SettingsActivity$NotificationPreferenceFragment.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SettingsActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$3.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$4.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$5.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$6.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$7.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_$IntentBuilder_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\SprinklesActivity_.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\models\City.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\models\District.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\models\Note.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\models\NoteTagLink.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\models\Province.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\models\Tag.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\classes\com\example\mainproject\parser\ParserByPULL.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\jarlist.cache" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\bin\proguard.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\gen\com\example\httpasynclib\R.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\gen\com\example\mainproject\BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MainProject\gen\com\example\mainproject\R.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\pre-dexed\debug\classes-4f01a47e6292d230afdf697fe60aa3724e30bf5a.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\pre-dexed\debug\classes-9b4d4d5dab77cc81b2421e03b580c44e750eff10.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\README.md" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\CursorIterator.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\CursorList.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\CursorLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\DbOpenHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ManyQuery$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ManyQuery$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ManyQuery$ResultHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ManyQuery.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Migration.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Model$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Model$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Model$3.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Model$4.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Model$OnDeletedCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Model$OnSavedCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Model.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelInfo$ColumnField.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelInfo$DynamicColumnField.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelInfo$StaticColumnField.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelList$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelList$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelList$OnAllDeletedCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelList$OnAllSavedCallback.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\ModelList.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\OneQuery$1.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\OneQuery$2.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\OneQuery$ResultHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\OneQuery.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Query.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\QueryResult.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Sprinkles.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\SqlStatement.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\SupportCursorLoader.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Transaction$OnTransactionCommittedListener.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Transaction.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\Utils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\AutoIncrementPrimaryKey.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\CascadeDelete.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\Check.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\Column.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\ConflictClause.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\DynamicColumn.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\ForeignKey.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\NotNull.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\PrimaryKey.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\Table.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\annotations\Unique.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\AutoIncrementMustBeIntegerException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\CannotCascadeDeleteNonForeignKey.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\ContentValuesEmptyException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\DuplicateColumnException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\EmptyTableException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\MultipleAutoIncrementFieldsException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\NoPrimaryKeysException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\NoSuchColumnFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\NoSuchSqlTypeExistsException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\NoTableAnnotationException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\exceptions\NoTypeSerializerFoundException.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\BooleanSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\DateSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\DoubleSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\FloatSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\IntSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\LongSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\SqlType.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\StringSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\classes\se\emilsjolander\sprinkles\typeserializers\TypeSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\bin\sprinkleslib.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\sprinkleslibrary\gen\se\emilsjolander\sprinkles\BuildConfig.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/pre-dexed/debug/androidannotations-api-3.0.1-7c169035d1d2b9e44e0573cfdc299350269baf6e.jar" afterPath="$PROJECT_DIR$/mainProject/build/pre-dexed/debug/androidannotations-api-3.0.1-7c169035d1d2b9e44e0573cfdc299350269baf6e.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/mainProject/build/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/classes.jar" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/sprinklesLib/unspecified/classes.jar" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/sprinklesLib/unspecified/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/sprinklesLib/unspecified/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/sprinklesLib/unspecified/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpAsyncLib/build/source/buildConfig/debug/com/example/httpasynclib/BuildConfig.java" afterPath="$PROJECT_DIR$/httpAsyncLib/build/source/buildConfig/debug/com/example/httpasynclib/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpAsyncLib/build/source/buildConfig/release/com/example/httpasynclib/BuildConfig.java" afterPath="$PROJECT_DIR$/httpAsyncLib/build/source/buildConfig/release/com/example/httpasynclib/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/buildConfig/debug/com/example/mainproject/BuildConfig.java" afterPath="$PROJECT_DIR$/mainProject/build/source/buildConfig/debug/com/example/mainproject/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sprinklesLib/build/source/buildConfig/debug/se/emilsjolander/sprinkles/BuildConfig.java" afterPath="$PROJECT_DIR$/sprinklesLib/build/source/buildConfig/debug/se/emilsjolander/sprinkles/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sprinklesLib/build/source/buildConfig/release/se/emilsjolander/sprinkles/BuildConfig.java" afterPath="$PROJECT_DIR$/sprinklesLib/build/source/buildConfig/release/se/emilsjolander/sprinkles/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyAndroidProject.iml" afterPath="$PROJECT_DIR$/MyAndroidProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/r/debug/com/example/httpasynclib/R.java" afterPath="$PROJECT_DIR$/mainProject/build/source/r/debug/com/example/httpasynclib/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpAsyncLib/httpAsyncLib.iml" afterPath="$PROJECT_DIR$/httpAsyncLib/httpAsyncLib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/pre-dexed/debug/support-v4-19.1.0-946a8cedfbf9c1ebf75823a66dc754b9e4304877.jar" afterPath="$PROJECT_DIR$/mainProject/build/pre-dexed/debug/support-v4-19.1.0-946a8cedfbf9c1ebf75823a66dc754b9e4304877.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/HttpTestActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/HttpTestActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MainActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MainActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MyFragment_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MyFragment_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/SprinklesActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/SprinklesActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/androidannotations.log" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/androidannotations.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build.gradle" afterPath="$PROJECT_DIR$/mainProject/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/mainProject.iml" afterPath="$PROJECT_DIR$/mainProject/mainProject.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sprinklesLib/sprinklesLib.iml" afterPath="$PROJECT_DIR$/sprinklesLib/sprinklesLib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/res/values/values.xml" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/res/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/res/values-v11/values.xml" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/res/values-v11/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/res/values-v14/values.xml" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/res/values-v14/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/proguard-project.txt" afterPath="$PROJECT_DIR$/mainProject/proguard-project.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MainProject.iws" />
@@ -103,11 +322,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3876652" vertical-offset="0" max-vertical-offset="960">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="960">
+              <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
               <folding>
                 <element signature="e#571#589#0" expanded="true" />
                 <element signature="e#741#759#0" expanded="true" />
@@ -121,38 +340,38 @@
       <file leaf-file-name="lint.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainProject/lint.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="128">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="128">
               <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainProject/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="1136">
-              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.23966943" vertical-offset="700" max-vertical-offset="1184">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprinklesLib/build.gradle">
+      <file leaf-file-name="HttpTestActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/HttpTestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="448">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="1984">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnnotationActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/AnnotationActivity.java">
+      <file leaf-file-name="proguard-project.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainProject/proguard-project.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1440">
-              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
+              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -161,8 +380,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1472" max-vertical-offset="2720">
-              <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="2256">
+              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -175,11 +394,54 @@
       <setting name="OPEN_NEW_TAB" value="true" />
     </FindUsagesManager>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\Development\mykeystore\mykeystore" />
+    <option name="KEY_ALIAS" value="luhaitest" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GradleLocalSettings">
     <option name="tasksExpandState">
       <map>
         <entry key="" value="true" />
+        <entry key=":httpAsyncLib/MyAndroidProject/" value="false" />
+        <entry key=":mainProject/MyAndroidProject/" value="true" />
+        <entry key="MyAndroidProject/" value="true" />
       </map>
+    </option>
+    <option name="recentTasks">
+      <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="assembleDebug" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="assembleRelease" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+      </list>
     </option>
     <option name="availableProjects">
       <map>
@@ -798,6 +1060,11 @@
                 <option name="name" value="installDebugTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Installs the Release build" />
+                <option name="linkedExternalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
+                <option name="name" value="installRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Runs lint on all variants." />
                 <option name="linkedExternalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
                 <option name="name" value="lint" />
@@ -967,6 +1234,14 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
                 <option name="name" value="validateDebugSigning" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
+                <option name="name" value="validateReleaseSigning" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
+                <option name="name" value="zipalignRelease" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -1365,7 +1640,7 @@
         <entry key="C:/tmp/Sprinkles" value="1388025081645" />
         <entry key="C:/tmp/sprinkles-master" value="1388038710774" />
         <entry key="$PROJECT_DIR$/../../../git/androiddemo/AndroidDemo/gradle" value="1390701704604" />
-        <entry key="$PROJECT_DIR$" value="6988062954044" />
+        <entry key="$PROJECT_DIR$" value="6988070228724" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2373,8 +2648,8 @@
                             <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/net.sf.proguard/proguard-gradle/4.10/edad1b6af1c08c54a58fb39da9fa48e03bc6678d/proguard-gradle-4.10.jar" />
                             <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.7.3/63f1e5d99614a1b0366722c707a8c032590aeb94/gradle-0.7.3-sources.jar" />
                             <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.android.tools.build/gradle/0.7.3/ff09fdc8c994c50a9c950378035c5f820edad6be/gradle-0.7.3.jar" />
-                            <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.1/42062e7fb68d8035c53738ab612e60455f2ca842/android-apt-1.1-sources.jar" />
-                            <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.1/8117bbf5fced744e40e9ff2798511854e690e234/android-apt-1.1.jar" />
+                            <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.2/6ce2dca5031d8d57816297e8284ac70b3f3566a5/android-apt-1.2-sources.jar" />
+                            <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.neenbedankt.gradle.plugins/android-apt/1.2/e4925ef6c59b650fe038990e18c866ef0aecc015/android-apt-1.2.jar" />
                             <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.google.guava/guava/13.0.1/ea42e17f75a65e72d12cd311b7d1e7d6356bbb3f/guava-13.0.1-sources.jar" />
                             <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.google.guava/guava/13.0.1/d6f22b1e60a2f1ef99e22c9f5fde270b2088365/guava-13.0.1.jar" />
                             <option value="$PROJECT_DIR$/../../../common/gradle-1.9/caches/modules-2/files-2.1/com.android.tools/common/22.4.2/7c54a5e08fe0fad64303f3e87ce121ff909ee3a9/common-22.4.2-sources.jar" />
@@ -2595,8 +2870,9 @@
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/SprinklesActivity.java" />
         <option value="$PROJECT_DIR$/sprinklesLib/build.gradle" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/AnnotationActivity.java" />
-        <option value="$PROJECT_DIR$/mainProject/build.gradle" />
         <option value="$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/mainProject/proguard-project.txt" />
+        <option value="$PROJECT_DIR$/mainProject/build.gradle" />
       </list>
     </option>
   </component>
@@ -2818,6 +3094,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprinklesLib" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2828,7 +3118,29 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprinklesLib" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mainProject" />
@@ -2842,7 +3154,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MyAndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mainProject" />
@@ -2854,6 +3166,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainProject" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2869,24 +3207,67 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="krasa.formatter.settings.ProjectSettingsComponent" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../mykeystore/mykeystore" />
+    <property name="ExportedModule" value="mainProject" />
+    <property name="ExportedApkPath" value="C:\mainproject.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="true" />
+    <property name="AndroidProguardConfigPaths" value="E:\Development\IDE\android-sdks\tools\proguard\proguard-android.txt;E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\proguard-project.txt" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
       <recent name="E:\Development\WorkSpace\AndroidStudio\MyAndroidProject\compile-libs" />
       <recent name="E:\Development\WorkSpace\AndroidStudio\MyAndroidProject\myProjectLib\libs" />
       <recent name="E:\Development\WorkSpace\AndroidStudio\MyAndroidProject\sprinklesLib\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.mainProject">
+  <component name="RunManager" selected="Gradle.MyAndroidProject:mainProject [assembleDebug]">
+    <configuration default="false" name="MyAndroidProject:mainProject [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleRelease" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyAndroidProject:mainProject [assembleDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleDebug" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
       <setting name="path" value="" />
@@ -2923,6 +3304,21 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -3041,9 +3437,17 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Android Application.mainProject" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.MyAndroidProject:mainProject [assembleRelease]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.MyAndroidProject:mainProject [assembleDebug]" />
     </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.MyAndroidProject:mainProject [assembleDebug]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.MyAndroidProject:mainProject [assembleRelease]" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
@@ -3062,6 +3466,11 @@
       <created>1397120315123</created>
       <updated>1397120315123</updated>
     </task>
+    <task id="LOCAL-00001" summary="add comment">
+      <created>1397613348493</created>
+      <updated>1397613348493</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -3089,31 +3498,31 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24512535" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.26568267" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4610028" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28412256" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3259053" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17836677" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24512535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.7324723" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24512535" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3133,48 +3542,13 @@
       <TodoPanelSettings />
     </option>
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <MESSAGE value="add comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mainProject/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="1136">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprinklesLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="448">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/AnnotationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="1280">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="e#571#589#0" expanded="true" />
-            <element signature="e#741#759#0" expanded="true" />
-            <element signature="e#1097#1130#0" expanded="true" />
-            <element signature="e#1571#1605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/lint.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="128">
@@ -3497,13 +3871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.12" vertical-offset="3" max-vertical-offset="368">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="144">
@@ -3525,6 +3892,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="2256">
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/proguard-project.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="640">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/lint.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="128">
@@ -3533,48 +3924,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="1136">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sprinklesLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="448">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/AnnotationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1344">
-          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="864" max-vertical-offset="2288">
-          <caret line="92" column="28" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3876652" vertical-offset="0" max-vertical-offset="960">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="530" max-vertical-offset="960">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding>
             <element signature="e#571#589#0" expanded="true" />
             <element signature="e#741#759#0" expanded="true" />
             <element signature="e#1097#1130#0" expanded="true" />
             <element signature="e#1571#1605#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sprinklesLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24615385" vertical-offset="0" max-vertical-offset="455">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/AnnotationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4923077" vertical-offset="144" max-vertical-offset="1104">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/HttpTestActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="1984">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23966943" vertical-offset="700" max-vertical-offset="1184">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3654,17 +4045,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
+          <last-edited>androidannotations-api-3.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

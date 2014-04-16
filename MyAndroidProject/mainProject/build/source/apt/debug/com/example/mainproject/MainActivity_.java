@@ -81,36 +81,6 @@ public final class MainActivity_
     @Override
     public void onViewChanged(HasViews hasViews) {
         {
-            View view = hasViews.findViewById(id.btn_locationSelect);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn_locationSelect();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(id.btn_sprinkles);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn_sprinkles();
-                    }
-
-                }
-                );
-            }
-        }
-        {
             View view = hasViews.findViewById(id.annotation_test);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -149,6 +119,36 @@ public final class MainActivity_
                     @Override
                     public void onClick(View view) {
                         MainActivity_.this.onClick(view);
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(id.btn_locationSelect);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btn_locationSelect();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(id.btn_sprinkles);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btn_sprinkles();
                     }
 
                 }

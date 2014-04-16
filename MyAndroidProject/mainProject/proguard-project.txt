@@ -18,10 +18,18 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
--libraryjars libs/android-support-v4.jar
--libraryjars libs/androidannotations-api-3.0.1.jar
+#-libraryjars libs/android-support-v4.jar
+#-libraryjars libs/androidannotations-api-3.0.1.jar
 -keepattributes *Annotation*
 -keep public class com.example.mainproject.models.*{*;}
 -dontwarn android.support.v4.**
 -dontwarn org.androidannotations.**
 #-ignorewarnings
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
