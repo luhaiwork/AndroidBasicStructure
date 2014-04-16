@@ -11,7 +11,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -69,7 +68,11 @@ public final class AnnotationActivity_
         return new AnnotationActivity_.IntentBuilder_(context);
     }
 
-    public static AnnotationActivity_.IntentBuilder_ intent(Fragment supportFragment) {
+    public static AnnotationActivity_.IntentBuilder_ intent(android.app.Fragment fragment) {
+        return new AnnotationActivity_.IntentBuilder_(fragment);
+    }
+
+    public static AnnotationActivity_.IntentBuilder_ intent(android.support.v4.app.Fragment supportFragment) {
         return new AnnotationActivity_.IntentBuilder_(supportFragment);
     }
 
@@ -138,14 +141,21 @@ public final class AnnotationActivity_
 
         private Context context_;
         private final Intent intent_;
-        private Fragment fragmentSupport_;
+        private android.app.Fragment fragment_;
+        private android.support.v4.app.Fragment fragmentSupport_;
 
         public IntentBuilder_(Context context) {
             context_ = context;
             intent_ = new Intent(context, AnnotationActivity_.class);
         }
 
-        public IntentBuilder_(Fragment fragment) {
+        public IntentBuilder_(android.app.Fragment fragment) {
+            fragment_ = fragment;
+            context_ = fragment.getActivity();
+            intent_ = new Intent(context_, AnnotationActivity_.class);
+        }
+
+        public IntentBuilder_(android.support.v4.app.Fragment fragment) {
             fragmentSupport_ = fragment;
             context_ = fragment.getActivity();
             intent_ = new Intent(context_, AnnotationActivity_.class);
@@ -168,10 +178,14 @@ public final class AnnotationActivity_
             if (fragmentSupport_!= null) {
                 fragmentSupport_.startActivityForResult(intent_, requestCode);
             } else {
-                if (context_ instanceof Activity) {
-                    ((Activity) context_).startActivityForResult(intent_, requestCode);
+                if (fragment_!= null) {
+                    fragment_.startActivityForResult(intent_, requestCode);
                 } else {
-                    context_.startActivity(intent_);
+                    if (context_ instanceof Activity) {
+                        ((Activity) context_).startActivityForResult(intent_, requestCode);
+                    } else {
+                        context_.startActivity(intent_);
+                    }
                 }
             }
         }

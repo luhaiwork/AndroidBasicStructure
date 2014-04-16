@@ -2,6 +2,9 @@
 <merger>
 
     <dataSet config="unspecified" >
+        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\sprinklesLib\unspecified\res" />
+    </dataSet>
+    <dataSet config="unspecified" >
         <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\res" >
             <file
                 name="ic_launcher"

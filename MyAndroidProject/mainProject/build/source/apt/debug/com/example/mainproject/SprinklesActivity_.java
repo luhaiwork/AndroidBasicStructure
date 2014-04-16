@@ -10,7 +10,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -70,48 +69,22 @@ public final class SprinklesActivity_
         return new SprinklesActivity_.IntentBuilder_(context);
     }
 
-    public static SprinklesActivity_.IntentBuilder_ intent(Fragment supportFragment) {
+    public static SprinklesActivity_.IntentBuilder_ intent(android.app.Fragment fragment) {
+        return new SprinklesActivity_.IntentBuilder_(fragment);
+    }
+
+    public static SprinklesActivity_.IntentBuilder_ intent(android.support.v4.app.Fragment supportFragment) {
         return new SprinklesActivity_.IntentBuilder_(supportFragment);
     }
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
         btn_edit = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_edit));
-        lv_data = ((ListView) hasViews.findViewById(com.example.mainproject.R.id.lv_data));
         btn_add = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_add));
         et_search = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_search));
         et_valforedit = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_valforedit));
-        et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
-        {
-            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_edit);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        SprinklesActivity_.this.btn_edit();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_add);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        SprinklesActivity_.this.btn_add();
-                    }
-
-                }
-                );
-            }
-        }
+        lv_data = ((ListView) hasViews.findViewById(com.example.mainproject.R.id.lv_data));
         {
             View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction);
             if (view!= null) {
@@ -128,6 +101,21 @@ public final class SprinklesActivity_
             }
         }
         {
+            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_edit);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        SprinklesActivity_.this.btn_edit();
+                    }
+
+                }
+                );
+            }
+        }
+        {
             View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction_async);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -136,6 +124,21 @@ public final class SprinklesActivity_
                     @Override
                     public void onClick(View view) {
                         SprinklesActivity_.this.test_transaction_async();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_add);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        SprinklesActivity_.this.btn_add();
                     }
 
                 }
@@ -203,14 +206,21 @@ public final class SprinklesActivity_
 
         private Context context_;
         private final Intent intent_;
-        private Fragment fragmentSupport_;
+        private android.app.Fragment fragment_;
+        private android.support.v4.app.Fragment fragmentSupport_;
 
         public IntentBuilder_(Context context) {
             context_ = context;
             intent_ = new Intent(context, SprinklesActivity_.class);
         }
 
-        public IntentBuilder_(Fragment fragment) {
+        public IntentBuilder_(android.app.Fragment fragment) {
+            fragment_ = fragment;
+            context_ = fragment.getActivity();
+            intent_ = new Intent(context_, SprinklesActivity_.class);
+        }
+
+        public IntentBuilder_(android.support.v4.app.Fragment fragment) {
             fragmentSupport_ = fragment;
             context_ = fragment.getActivity();
             intent_ = new Intent(context_, SprinklesActivity_.class);
@@ -233,10 +243,14 @@ public final class SprinklesActivity_
             if (fragmentSupport_!= null) {
                 fragmentSupport_.startActivityForResult(intent_, requestCode);
             } else {
-                if (context_ instanceof Activity) {
-                    ((Activity) context_).startActivityForResult(intent_, requestCode);
+                if (fragment_!= null) {
+                    fragment_.startActivityForResult(intent_, requestCode);
                 } else {
-                    context_.startActivity(intent_);
+                    if (context_ instanceof Activity) {
+                        ((Activity) context_).startActivityForResult(intent_, requestCode);
+                    } else {
+                        context_.startActivity(intent_);
+                    }
                 }
             }
         }

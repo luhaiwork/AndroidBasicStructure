@@ -9,7 +9,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -63,7 +62,11 @@ public final class MainActivity_
         return new MainActivity_.IntentBuilder_(context);
     }
 
-    public static MainActivity_.IntentBuilder_ intent(Fragment supportFragment) {
+    public static MainActivity_.IntentBuilder_ intent(android.app.Fragment fragment) {
+        return new MainActivity_.IntentBuilder_(fragment);
+    }
+
+    public static MainActivity_.IntentBuilder_ intent(android.support.v4.app.Fragment supportFragment) {
         return new MainActivity_.IntentBuilder_(supportFragment);
     }
 
@@ -77,6 +80,21 @@ public final class MainActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
+        {
+            View view = hasViews.findViewById(id.btn_locationSelect);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btn_locationSelect();
+                    }
+
+                }
+                );
+            }
+        }
         {
             View view = hasViews.findViewById(id.btn_sprinkles);
             if (view!= null) {
@@ -137,21 +155,6 @@ public final class MainActivity_
                 );
             }
         }
-        {
-            View view = hasViews.findViewById(id.btn_locationSelect);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn_locationSelect();
-                    }
-
-                }
-                );
-            }
-        }
         afterView();
     }
 
@@ -159,14 +162,21 @@ public final class MainActivity_
 
         private Context context_;
         private final Intent intent_;
-        private Fragment fragmentSupport_;
+        private android.app.Fragment fragment_;
+        private android.support.v4.app.Fragment fragmentSupport_;
 
         public IntentBuilder_(Context context) {
             context_ = context;
             intent_ = new Intent(context, MainActivity_.class);
         }
 
-        public IntentBuilder_(Fragment fragment) {
+        public IntentBuilder_(android.app.Fragment fragment) {
+            fragment_ = fragment;
+            context_ = fragment.getActivity();
+            intent_ = new Intent(context_, MainActivity_.class);
+        }
+
+        public IntentBuilder_(android.support.v4.app.Fragment fragment) {
             fragmentSupport_ = fragment;
             context_ = fragment.getActivity();
             intent_ = new Intent(context_, MainActivity_.class);
@@ -189,10 +199,14 @@ public final class MainActivity_
             if (fragmentSupport_!= null) {
                 fragmentSupport_.startActivityForResult(intent_, requestCode);
             } else {
-                if (context_ instanceof Activity) {
-                    ((Activity) context_).startActivityForResult(intent_, requestCode);
+                if (fragment_!= null) {
+                    fragment_.startActivityForResult(intent_, requestCode);
                 } else {
-                    context_.startActivity(intent_);
+                    if (context_ instanceof Activity) {
+                        ((Activity) context_).startActivityForResult(intent_, requestCode);
+                    } else {
+                        context_.startActivity(intent_);
+                    }
                 }
             }
         }
