@@ -9,7 +9,7 @@
         android:targetSdkVersion="18" />
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <!-- application -->
     <application
         android:name="com.example.mainproject.MyApplication_"
         android:allowBackup="true"
