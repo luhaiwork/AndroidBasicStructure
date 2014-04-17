@@ -14,10 +14,11 @@ import com.example.mainproject.R;
 
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity_> {
 
+    MainActivity_ testAct;
     public MainActivityTest() {
         super(MainActivity_.class);
     }
-    MainActivity_ testAct;
+
     @Override
     protected void setUp() throws Exception {
         super.setUp();
@@ -62,6 +63,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
         AnnotationActivity_ receiverActivity = (AnnotationActivity_) receiverActivityMonitor
                 .waitForActivityWithTimeout(5000);
         assertNotNull(receiverActivity);
+        //test value
         assertEquals("test",testAnnotationBtn.getText());
     }
 }
