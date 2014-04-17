@@ -33,12 +33,13 @@ import com.example.mainproject.parser.ParserByPULL;
 @SuppressLint("NewApi")
 @EActivity(R.layout.activity_main)
 public class MainActivity extends FragmentActivity {
-	private String TAG = MainActivity.class.getSimpleName().toString();
-	private ActionBarDrawerToggle drawerToggle = null;
 	DrawerLayout drawer;
 	LinearLayout drawerLayout;
     @ViewById
     Button annotation_test;
+    private String TAG = MainActivity.class.getSimpleName().toString();
+    private ActionBarDrawerToggle drawerToggle = null;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -53,7 +54,7 @@ public class MainActivity extends FragmentActivity {
 	@Click({ R.id.annotation_test, R.id.testid2, R.id.btn_testhttp })
 	public void onClick(View v) {
 		if (v.getId() == R.id.annotation_test) {
-            Log.e("test","------------------------------))))))))))))))))))");
+            Log.i("info", "button annotation_test click");
             annotation_test.setText("test");
 			Intent intent = new Intent(this, AnnotationActivity_.class);
 			startActivity(intent);
