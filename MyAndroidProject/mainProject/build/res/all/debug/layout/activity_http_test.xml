@@ -41,4 +41,4 @@
     <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
 	<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tv_result"/>
     </ScrollView>
-</LinearLayout><!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/layout/activity_http_test.xml -->
+</LinearLayout><!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/layout/activity_http_test.xml -->

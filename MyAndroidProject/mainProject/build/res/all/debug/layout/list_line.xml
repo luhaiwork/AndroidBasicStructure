@@ -5,4 +5,4 @@
     android:orientation="vertical">
 	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tv_note"/>
 	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="long click to delete"/>
-</LinearLayout><!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/layout/list_line.xml -->
+</LinearLayout><!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/layout/list_line.xml -->

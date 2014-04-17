@@ -33,4 +33,4 @@
         android:title="@string/pref_title_add_friends_to_messages" />
 
 </PreferenceScreen>
-<!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/xml/pref_general.xml -->
+<!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/xml/pref_general.xml -->

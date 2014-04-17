@@ -8,4 +8,4 @@
 	<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/sp_city"/>
 	<Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/sp_district"/>
 </LinearLayout>
-<!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/layout/fragment_location_select.xml -->
+<!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/layout/fragment_location_select.xml -->

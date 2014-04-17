@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/res/values/strings.xml -->
     <eat-comment />
 
     <string name="app_name">HttpAsyncLib</string>
-    <!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Light">

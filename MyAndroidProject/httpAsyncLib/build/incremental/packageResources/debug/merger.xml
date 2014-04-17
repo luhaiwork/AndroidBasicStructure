@@ -2,30 +2,30 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res" >
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res" >
             <file
                 name="ic_launcher"
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\drawable-hdpi\ic_launcher.png"
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\drawable-mdpi\ic_launcher.png"
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\drawable-xhdpi\ic_launcher.png"
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values\strings.xml"
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values\strings.xml"
                 qualifiers="" >
                 <string name="app_name" >HttpAsyncLib
                 </string>
             </file>
             <file
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values\styles.xml"
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values\styles.xml"
                 qualifiers="" >
 
                 <style
@@ -47,7 +47,7 @@
                 </style>
             </file>
             <file
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values-v11\styles.xml"
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values-v11\styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -58,7 +58,7 @@
                 </style>
             </file>
             <file
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values-v14\styles.xml"
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\res\values-v14\styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -69,11 +69,11 @@
                 </style>
             </file>
         </source>
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\build\res\rs\debug" />
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\build\res\generated\debug" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\build\res\rs\debug" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\build\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\debug\res" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\debug\res" />
     </dataSet>
 
 </merger>

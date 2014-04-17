@@ -2,12 +2,12 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\src\main\res" />
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\build\res\rs\debug" />
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\build\res\generated\debug" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\sprinklesLib\src\main\res" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\sprinklesLib\build\res\rs\debug" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\sprinklesLib\build\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\sprinklesLib\src\debug\res" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\sprinklesLib\src\debug\res" />
     </dataSet>
 
 </merger>

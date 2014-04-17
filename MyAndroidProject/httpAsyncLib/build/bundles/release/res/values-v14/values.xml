@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/res/values-v14/styles.xml -->
+    <!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/res/values-v14/styles.xml -->
     <eat-comment />
 
     <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">

@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\assets" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\debug\assets" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib\src\debug\assets" />
     </dataSet>
 
 </merger>

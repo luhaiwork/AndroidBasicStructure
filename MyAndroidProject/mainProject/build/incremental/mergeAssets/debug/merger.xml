@@ -2,20 +2,20 @@
 <merger>
 
     <dataSet config="unspecified" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\sprinklesLib\unspecified\assets" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\sprinklesLib\unspecified\assets" />
     </dataSet>
     <dataSet config="unspecified" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\assets" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\exploded-aar\MyAndroidProject\httpAsyncLib\unspecified\assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\assets" >
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\src\main\assets" >
             <file
                 name="basic_loaction_info.xml"
-                path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\main\assets\basic_loaction_info.xml" />
+                path="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\src\main\assets\basic_loaction_info.xml" />
         </source>
     </dataSet>
     <dataSet config="debug" >
-        <source path="E:\Development\git\MyAndroidProject\MyAndroidProject\mainProject\src\debug\assets" />
+        <source path="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\src\debug\assets" />
     </dataSet>
 
 </merger>

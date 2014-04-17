@@ -27,4 +27,4 @@
         android:title="@string/pref_title_vibrate" />
 
 </PreferenceScreen>
-<!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/xml/pref_notification.xml -->
+<!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/xml/pref_notification.xml -->

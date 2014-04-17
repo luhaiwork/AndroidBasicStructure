@@ -1,4 +1,4 @@
-<!-- From: file:/E:/Development/git/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/AndroidManifest.xml -->
+<!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/httpAsyncLib/src/main/AndroidManifest.xml -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.example.httpasynclib">
 
     <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="18"/>
