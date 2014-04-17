@@ -1,13 +1,8 @@
 package com.example.mainproject.test;
 
-import android.support.v7.app.ActionBarActivity;
-import android.os.Bundle;
 import android.test.ActivityInstrumentationTestCase2;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.example.mainproject.MainActivity_;
-import com.example.mainproject.R;
 
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity_> {
 
