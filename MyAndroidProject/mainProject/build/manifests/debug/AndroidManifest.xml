@@ -13,8 +13,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:label="@string/title_activity_settings" android:name="com.example.mainproject.SettingsActivity">
-        </activity>
+        <activity android:label="@string/title_activity_settings" android:name="com.example.mainproject.SettingsActivity"/>
         <!--
             <activity android:name="com.example.testlib.MainActivity1_" >
             <intent-filter>
@@ -23,17 +22,14 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:label="@string/title_activity_http_test" android:name="com.example.mainproject.HttpTestActivity_">
-        </activity>
+        <activity android:label="@string/title_activity_http_test" android:name="com.example.mainproject.HttpTestActivity_"/>
         <activity android:label="@string/title_activity_annotation" android:name="com.example.mainproject.AnnotationActivity_" android:parentActivityName="com.example.mainproject.MainActivity_">
 
             <!-- Parent activity meta-data to support API level 7+ -->
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.mainproject.MainActivity_"/>
         </activity>
-        <activity android:label="@string/title_activity_sprinkles" android:name="com.example.mainproject.SprinklesActivity_">
-        </activity>
-        <activity android:label="@string/title_activity_main_activity_test" android:name="com.example.mainproject.test.MainActivityTest">
-        </activity>
+        <activity android:label="@string/title_activity_sprinkles" android:name="com.example.mainproject.SprinklesActivity_"/>
+        <activity android:label="@string/title_activity_main_activity_test" android:name="com.example.mainproject.test.MainActivityTest"/>
     </application>
 
 </manifest>

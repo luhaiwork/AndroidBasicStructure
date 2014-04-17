@@ -26,7 +26,6 @@ public class AnnotationActivity extends FragmentActivity {
     MyApplication myApplication;
     @ViewById
     TextView tv_result;
-
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
     protected void onCreate(Bundle savedInstanceState) {

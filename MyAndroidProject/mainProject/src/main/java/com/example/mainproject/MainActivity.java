@@ -6,6 +6,7 @@ import java.util.List;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.ViewById;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,9 +17,11 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -34,6 +37,8 @@ public class MainActivity extends FragmentActivity {
 	private ActionBarDrawerToggle drawerToggle = null;
 	DrawerLayout drawer;
 	LinearLayout drawerLayout;
+    @ViewById
+    Button annotation_test;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -48,8 +53,11 @@ public class MainActivity extends FragmentActivity {
 	@Click({ R.id.annotation_test, R.id.testid2, R.id.btn_testhttp })
 	public void onClick(View v) {
 		if (v.getId() == R.id.annotation_test) {
+            Log.e("test","------------------------------))))))))))))))))))");
+            annotation_test.setText("test");
 			Intent intent = new Intent(this, AnnotationActivity_.class);
 			startActivity(intent);
+
 		} else if (v.getId() == R.id.testid2) {
 			try {
 				Class.forName("com.example.testlib.MainActivity1_");
@@ -114,6 +122,7 @@ public class MainActivity extends FragmentActivity {
 				e.printStackTrace();
 			}
 		drawerLayout=(LinearLayout)findViewById(R.id.drawer_layout);
+        drawer.openDrawer(Gravity.LEFT);
 	}
 	/**
 	 * test android xml parser

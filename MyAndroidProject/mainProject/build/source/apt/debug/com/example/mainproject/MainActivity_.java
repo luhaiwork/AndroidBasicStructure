@@ -13,6 +13,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.Button;
 import com.example.mainproject.R.id;
 import com.example.mainproject.R.layout;
 import org.androidannotations.api.SdkVersionHelper;
@@ -80,21 +81,7 @@ public final class MainActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        {
-            View view = hasViews.findViewById(id.btn_sprinkles);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn_sprinkles();
-                    }
-
-                }
-                );
-            }
-        }
+        annotation_test = ((Button) hasViews.findViewById(id.annotation_test));
         {
             View view = hasViews.findViewById(id.annotation_test);
             if (view!= null) {
@@ -134,6 +121,21 @@ public final class MainActivity_
                     @Override
                     public void onClick(View view) {
                         MainActivity_.this.onClick(view);
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(id.btn_sprinkles);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btn_sprinkles();
                     }
 
                 }
