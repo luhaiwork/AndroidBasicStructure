@@ -74,7 +74,7 @@ public class MainActivity extends FragmentActivity {
         } else if (v.getId() == R.id.btn_dialogSelect) {
             android.support.v4.app.FragmentManager fm = getSupportFragmentManager();
             FragmentTransaction beginTransaction = fm.beginTransaction();
-            beginTransaction.add(R.id.main, new TestDialogFragment_(), "testDialogFragment");
+            beginTransaction.replace(R.id.main, new TestDialogFragment_(), "testDialogFragment");
             beginTransaction.commit();
             drawer.closeDrawer(drawerLayout);
         }
@@ -90,7 +90,7 @@ public class MainActivity extends FragmentActivity {
     void btn_locationSelect() {
         android.support.v4.app.FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction beginTransaction = fm.beginTransaction();
-        beginTransaction.add(R.id.main, new LocationSelectFragment_(), "locationSelectFragment");
+        beginTransaction.replace(R.id.main, new LocationSelectFragment_(), "locationSelectFragment");
         beginTransaction.commit();
         drawer.closeDrawer(drawerLayout);
     }
