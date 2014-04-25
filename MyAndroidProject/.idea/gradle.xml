@@ -8,10 +8,10 @@
         <option name="gradleHome" value="$PROJECT_DIR$/../../../common/gradle-1.10" />
         <option name="modules">
           <set>
-            <option value="E:\Development\github\MyAndroidProject\MyAndroidProject" />
-            <option value="E:\Development\github\MyAndroidProject\MyAndroidProject\httpAsyncLib" />
-            <option value="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
-            <option value="E:\Development\github\MyAndroidProject\MyAndroidProject\sprinklesLib" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/httpAsyncLib" />
+            <option value="$PROJECT_DIR$/mainProject" />
+            <option value="$PROJECT_DIR$/sprinklesLib" />
           </set>
         </option>
       </GradleProjectSettings>

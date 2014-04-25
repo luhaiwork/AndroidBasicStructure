@@ -83,6 +83,36 @@ public final class MainActivity_
     public void onViewChanged(HasViews hasViews) {
         annotation_test = ((Button) hasViews.findViewById(id.annotation_test));
         {
+            View view = hasViews.findViewById(id.btn_sprinkles);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btn_sprinkles();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(id.btn_locationSelect);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btn_locationSelect();
+                    }
+
+                }
+                );
+            }
+        }
+        {
             View view = hasViews.findViewById(id.annotation_test);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -128,29 +158,14 @@ public final class MainActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.btn_sprinkles);
+            View view = hasViews.findViewById(id.btn_dialogSelect);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.btn_sprinkles();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(id.btn_locationSelect);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        MainActivity_.this.btn_locationSelect();
+                        MainActivity_.this.onClick(view);
                     }
 
                 }

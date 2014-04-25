@@ -2,20 +2,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
     <FrameLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-	<!--  android:layout_gravity="start" 为drawer的标识-->
+        android:layout_height="match_parent" />
+    <!--  android:layout_gravity="start" 为drawer的标识-->
     <LinearLayout
         android:id="@+id/drawer_layout"
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="#FFF"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/annotation_test"
@@ -40,11 +40,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="打开sprinkles测试" />
+
         <Button
             android:id="@+id/btn_locationSelect"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="省市级联菜单" />
+
+        <Button
+            android:id="@+id/btn_dialogSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dialog test" />
     </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>
