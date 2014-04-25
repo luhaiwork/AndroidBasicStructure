@@ -17,10 +17,11 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class array {
-        public static final int pref_example_list_titles=0x7f060000;
-        public static final int pref_example_list_values=0x7f060001;
-        public static final int pref_sync_frequency_titles=0x7f060002;
-        public static final int pref_sync_frequency_values=0x7f060003;
+        public static final int array_dialog=0x7f060000;
+        public static final int pref_example_list_titles=0x7f060001;
+        public static final int pref_example_list_values=0x7f060002;
+        public static final int pref_sync_frequency_titles=0x7f060003;
+        public static final int pref_sync_frequency_values=0x7f060004;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -948,21 +949,25 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f090015;
         public static final int action_menu_presenter=0x7f090016;
         public static final int action_mode_close_button=0x7f090024;
-        public static final int action_settings=0x7f09005b;
+        public static final int action_settings=0x7f090061;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int annotation_test=0x7f090046;
         public static final int beginning=0x7f09000a;
         public static final int btn_add=0x7f09004f;
+        public static final int btn_cus_dialog=0x7f09005f;
         public static final int btn_dialogSelect=0x7f09004b;
+        public static final int btn_dialog_commonTest=0x7f09005c;
+        public static final int btn_dialog_itemTest=0x7f09005d;
         public static final int btn_edit=0x7f090051;
         public static final int btn_entity=0x7f090041;
         public static final int btn_file=0x7f090042;
         public static final int btn_get=0x7f09003f;
         public static final int btn_locationSelect=0x7f09004a;
+        public static final int btn_multicheck_dialog=0x7f09005e;
         public static final int btn_post=0x7f090040;
         public static final int btn_sprinkles=0x7f090049;
-        public static final int btn_test_notice=0x7f090059;
+        public static final int btn_test_notice=0x7f09005b;
         public static final int btn_testhttp=0x7f090048;
         public static final int checkbox=0x7f09002d;
         public static final int collapseActionView=0x7f090011;
@@ -993,9 +998,10 @@ containing a value of this type.
         public static final int never=0x7f09000d;
         public static final int none=0x7f090009;
         public static final int normal=0x7f090000;
+        public static final int password=0x7f090055;
         public static final int progress_circular=0x7f090018;
         public static final int progress_horizontal=0x7f090019;
-        public static final int provinceName=0x7f090057;
+        public static final int provinceName=0x7f090059;
         public static final int radio=0x7f09002f;
         public static final int search_badge=0x7f090032;
         public static final int search_bar=0x7f090031;
@@ -1011,9 +1017,9 @@ containing a value of this type.
         public static final int showCustom=0x7f090007;
         public static final int showHome=0x7f090004;
         public static final int showTitle=0x7f090006;
-        public static final int sp_city=0x7f090055;
-        public static final int sp_district=0x7f090056;
-        public static final int sp_province=0x7f090054;
+        public static final int sp_city=0x7f090057;
+        public static final int sp_district=0x7f090058;
+        public static final int sp_province=0x7f090056;
         public static final int split_action_bar=0x7f09001e;
         public static final int submit_area=0x7f090039;
         public static final int tabMode=0x7f090002;
@@ -1023,11 +1029,12 @@ containing a value of this type.
         public static final int testid2=0x7f090047;
         public static final int title=0x7f09002b;
         public static final int top_action_bar=0x7f090020;
-        public static final int tv_note=0x7f09005a;
+        public static final int tv_note=0x7f090060;
         public static final int tv_result=0x7f09003d;
-        public static final int tv_testfragment=0x7f090058;
+        public static final int tv_testfragment=0x7f09005a;
         public static final int up=0x7f090021;
         public static final int useLogo=0x7f090003;
+        public static final int username=0x7f090054;
         public static final int withText=0x7f090010;
     }
     public static final class integer {
@@ -1063,12 +1070,13 @@ containing a value of this type.
         public static final int activity_main=0x7f03001a;
         public static final int activity_main_activity_test=0x7f03001b;
         public static final int activity_sprinkles=0x7f03001c;
-        public static final int fragment_location_select=0x7f03001d;
-        public static final int fragment_location_select_province_line=0x7f03001e;
-        public static final int fragment_myfragmenttop=0x7f03001f;
-        public static final int fragment_test_dialog=0x7f030020;
-        public static final int list_line=0x7f030021;
-        public static final int support_simple_spinner_dropdown_item=0x7f030022;
+        public static final int dialog_cus=0x7f03001d;
+        public static final int fragment_location_select=0x7f03001e;
+        public static final int fragment_location_select_province_line=0x7f03001f;
+        public static final int fragment_myfragmenttop=0x7f030020;
+        public static final int fragment_test_dialog=0x7f030021;
+        public static final int list_line=0x7f030022;
+        public static final int support_simple_spinner_dropdown_item=0x7f030023;
     }
     public static final class menu {
         public static final int annotation=0x7f0e0000;

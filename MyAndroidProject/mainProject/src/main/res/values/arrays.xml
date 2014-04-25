@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="array_dialog">
+        <item>red</item>
+        <item>blue</item>
+        <item>yellow</item>
+    </array>
+</resources>

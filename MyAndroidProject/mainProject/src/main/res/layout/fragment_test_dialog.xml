@@ -1,13 +1,37 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.mainproject.TestDialogFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="test ----" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Dialog Test" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/btn_dialog_commonTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_dialog_commonTest" />
+
+    <Button
+        android:id="@+id/btn_dialog_itemTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_dialog_itemTest" />
+
+    <Button
+        android:id="@+id/btn_multicheck_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_multicheck_dialog" />
+
+    <Button
+        android:id="@+id/btn_cus_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn_cus_dialog" />
+</LinearLayout>
