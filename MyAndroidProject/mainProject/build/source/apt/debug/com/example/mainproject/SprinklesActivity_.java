@@ -79,12 +79,12 @@ public final class SprinklesActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        btn_edit = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_edit));
-        et_valforedit = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_valforedit));
         btn_add = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_add));
-        lv_data = ((ListView) hasViews.findViewById(com.example.mainproject.R.id.lv_data));
-        et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
         et_search = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_search));
+        lv_data = ((ListView) hasViews.findViewById(com.example.mainproject.R.id.lv_data));
+        et_valforedit = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_valforedit));
+        btn_edit = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_edit));
+        et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
         {
             View view = hasViews.findViewById(com.example.mainproject.R.id.btn_add);
             if (view!= null) {
@@ -94,6 +94,21 @@ public final class SprinklesActivity_
                     @Override
                     public void onClick(View view) {
                         SprinklesActivity_.this.btn_add();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        SprinklesActivity_.this.test_transaction();
                     }
 
                 }
@@ -124,21 +139,6 @@ public final class SprinklesActivity_
                     @Override
                     public void onClick(View view) {
                         SprinklesActivity_.this.btn_edit();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        SprinklesActivity_.this.test_transaction();
                     }
 
                 }

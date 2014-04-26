@@ -31,24 +31,26 @@ import com.example.mainproject.models.Tag;
 //页面布局
 @EActivity(R.layout.activity_sprinkles)
 public class SprinklesActivity extends Activity {
-	private String TAG=SprinklesActivity.class.getSimpleName();
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-	}
-	@ViewById
-	Button btn_add;
-	@ViewById
-	EditText et_val;
-	@ViewById
-	ListView lv_data;
-	@ViewById
-	EditText et_search;
-	@ViewById
-	EditText et_valforedit;
-	@ViewById
-	Button btn_edit;
-	private SimpleCursorAdapter simpleDataAdp;
+    @ViewById
+    Button btn_add;
+    @ViewById
+    EditText et_val;
+    @ViewById
+    ListView lv_data;
+    @ViewById
+    EditText et_search;
+    @ViewById
+    EditText et_valforedit;
+    @ViewById
+    Button btn_edit;
+    private String TAG = SprinklesActivity.class.getSimpleName();
+    private SimpleCursorAdapter simpleDataAdp;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
 	@TextChange(R.id.et_search)
 	 void onTextChangesOnEtSearch() {
 		freshAdapter();
@@ -104,8 +106,8 @@ public class SprinklesActivity extends Activity {
 	void afterExcute() {
 		// 加载list数据
 		ManyQuery<Note> many = Query.many(Note.class, "select * from Notes",
-				null);
-		Cursor cursor = many.get().getCursor();
+                new Object());
+        Cursor cursor = many.get().getCursor();
 		String[] from = { "content" };
 		int[] to = { R.id.tv_note };
 		simpleDataAdp = new SimpleCursorAdapter(this, R.layout.list_line,

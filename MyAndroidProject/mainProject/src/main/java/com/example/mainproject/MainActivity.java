@@ -42,6 +42,7 @@ public class MainActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.e("tag", "===========debuglog++++++++++++++++++++");
         super.onCreate(savedInstanceState);
     }
 

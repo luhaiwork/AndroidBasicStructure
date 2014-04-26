@@ -52,9 +52,6 @@
         <activity
             android:name="com.example.mainproject.SprinklesActivity_"
             android:label="@string/title_activity_sprinkles"></activity>
-        <activity
-            android:name="com.example.mainproject.test.MainActivityTest"
-            android:label="@string/title_activity_main_activity_test"></activity>
     </application>
 
 </manifest>
