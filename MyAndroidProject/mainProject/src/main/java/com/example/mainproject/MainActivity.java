@@ -52,7 +52,7 @@ public class MainActivity extends FragmentActivity {
         return true;
     }
 
-    @Click({R.id.annotation_test, R.id.testid2, R.id.btn_testhttp, R.id.btn_dialogSelect})
+    @Click({R.id.annotation_test, R.id.testid2, R.id.btn_testhttp, R.id.btn_dialogSelect, R.id.btn_testLoader})
     public void onClick(View v) {
         if (v.getId() == R.id.annotation_test) {
             Log.i("info", "button annotation_test click");
@@ -78,6 +78,9 @@ public class MainActivity extends FragmentActivity {
             beginTransaction.replace(R.id.main, new TestDialogFragment_(), "testDialogFragment");
             beginTransaction.commit();
             drawer.closeDrawer(drawerLayout);
+        } else if (v.getId() == R.id.btn_testLoader) {
+            Intent intent = new Intent(this, ActTestLoader_.class);
+            startActivity(intent);
         }
     }
 

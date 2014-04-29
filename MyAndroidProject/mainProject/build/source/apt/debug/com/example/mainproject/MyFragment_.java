@@ -68,8 +68,8 @@ public final class MyFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        tv_testfragment = ((TextView) hasViews.findViewById(com.example.mainproject.R.id.tv_testfragment));
         btn_test_notice = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_test_notice));
+        tv_testfragment = ((TextView) hasViews.findViewById(com.example.mainproject.R.id.tv_testfragment));
         {
             View view = hasViews.findViewById(com.example.mainproject.R.id.btn_test_notice);
             if (view!= null) {
