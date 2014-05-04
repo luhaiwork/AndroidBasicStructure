@@ -88,21 +88,6 @@ public final class HttpTestActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.btn_post);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        HttpTestActivity_.this.testPost();
-                    }
-
-                }
-                );
-            }
-        }
-        {
             View view = hasViews.findViewById(id.btn_get);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -126,6 +111,21 @@ public final class HttpTestActivity_
                     @Override
                     public void onClick(View view) {
                         HttpTestActivity_.this.testUploadFile();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(id.btn_post);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        HttpTestActivity_.this.testPost();
                     }
 
                 }
