@@ -84,6 +84,20 @@ public class MainActivity extends FragmentActivity {
         }
     }
 
+    /**
+     * volley test
+     *
+     * @param view
+     */
+    @Click
+    public void btn_testvolley(View view) {
+        android.support.v4.app.FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction beginTransaction = fm.beginTransaction();
+        beginTransaction.replace(R.id.main, new TestVolleyFragment_(), "testVolleyFragment");
+        beginTransaction.commit();
+        drawer.closeDrawer(drawerLayout);
+    }
+
     @Click
     void btn_sprinkles() {
         Intent intent = new Intent(this, SprinklesActivity_.class);

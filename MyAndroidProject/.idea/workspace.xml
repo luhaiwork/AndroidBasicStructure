@@ -22,26 +22,22 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.mainproject" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c3f00fa-091c-4b42-9de8-548b4a5229aa" name="Default" comment="add Diaglog Fragment Test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/ActTestLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/loader/MyDataLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/res/menu/act_test_loader.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/res/layout/activity_act_test_loader.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/res/layout/testloader_list_line.xml" />
-      <change type="DELETED" beforePath="E:\Development\github\MyAndroidProject\MyAndroidProject\sprinklesLib\build\source\buildConfig\debug\se\emilsjolander\sprinkles\BuildConfig.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/classes.jar" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/httpAsyncLib/unspecified/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/sprinklesLib/unspecified/classes.jar" afterPath="$PROJECT_DIR$/mainProject/build/exploded-aar/MyAndroidProject/sprinklesLib/unspecified/classes.jar" />
+    <list default="true" id="3c3f00fa-091c-4b42-9de8-548b4a5229aa" name="Default" comment="Add Loader Test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/libs/volley.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/TestVolleyFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_test_volley.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/volley.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/HttpTestActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/HttpTestActivity_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/LocationSelectFragment_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/LocationSelectFragment_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MainActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MainActivity_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MyFragment_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MyFragment_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/r/debug/com/example/mainproject/R.java" afterPath="$PROJECT_DIR$/mainProject/build/source/r/debug/com/example/mainproject/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/SprinklesActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/SprinklesActivity_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mainProject/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/androidannotations.log" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/androidannotations.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/mainProject/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build.gradle" afterPath="$PROJECT_DIR$/mainProject/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/mainProject.iml" afterPath="$PROJECT_DIR$/mainProject/mainProject.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MainProject.iws" />
@@ -111,70 +107,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2560">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.48766327" vertical-offset="1392" max-vertical-offset="2768">
+              <caret line="138" column="49" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestVolleyFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/TestVolleyFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="864">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_test_volley.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_test_volley.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="464">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42720765" vertical-offset="365" max-vertical-offset="1072">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="944" max-vertical-offset="1168">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActTestLoader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/ActTestLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1616">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyDataLoader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/loader/MyDataLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="192" max-vertical-offset="2576">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_act_test_loader.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/activity_act_test_loader.xml">
           <provider editor-type-id="android-designer">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.714286" vertical-offset="0" max-vertical-offset="496">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="e#229#264#0" expanded="true" />
-                <element signature="e#290#325#0" expanded="true" />
-                <element signature="e#349#382#0" expanded="true" />
-                <element signature="e#409#442#0" expanded="true" />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -1431,7 +1406,7 @@
         <entry key="C:/tmp/Sprinkles" value="1388025081645" />
         <entry key="C:/tmp/sprinkles-master" value="1388038710774" />
         <entry key="$PROJECT_DIR$/../../../git/androiddemo/AndroidDemo/gradle" value="1390701704604" />
-        <entry key="$PROJECT_DIR$" value="6988928772874" />
+        <entry key="$PROJECT_DIR$" value="6989623700951" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3001,15 +2976,17 @@
         <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_test_dialog.xml" />
         <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/dialog_cus.xml" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/dialogfragment/MyDialogFragment.java" />
-        <option value="$PROJECT_DIR$/mainProject/build.gradle" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/SprinklesActivity.java" />
-        <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java" />
         <option value="$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/testloader_list_line.xml" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/loader/MyDataLoader.java" />
         <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/activity_act_test_loader.xml" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/ActTestLoader.java" />
+        <option value="$PROJECT_DIR$/mainProject/build.gradle" />
+        <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java" />
         <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/TestVolleyFragment.java" />
+        <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_test_volley.xml" />
       </list>
     </option>
   </component>
@@ -3218,6 +3195,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3294,6 +3272,32 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyAndroidProject" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mainProject" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3301,7 +3305,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3337,11 +3340,11 @@
       <recent name="com.example.mainproject.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\libs" />
       <recent name="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\src\main\res\layout" />
       <recent name="E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject" />
       <recent name="E:\Development\WorkSpace\AndroidStudio\MyAndroidProject\compile-libs" />
       <recent name="E:\Development\WorkSpace\AndroidStudio\MyAndroidProject\myProjectLib\libs" />
-      <recent name="E:\Development\WorkSpace\AndroidStudio\MyAndroidProject\sprinklesLib\libs" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.mainProject">
@@ -3708,7 +3711,11 @@
       <created>1398478419197</created>
       <updated>1398478419197</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add Loader Test">
+      <created>1398752468404</created>
+      <updated>1398752468404</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -3738,7 +3745,6 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27077365" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3747,19 +3753,20 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2234957" sideWeight="0.27142859" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60584956" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3189415" sideWeight="0.46848136" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32267037" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3783032" sideWeight="0.46848136" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19109195" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26432666" sideWeight="0.7280164" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2743553" sideWeight="0.7280164" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31058496" sideWeight="0.8510029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27005732" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3785,7 +3792,8 @@
     <MESSAGE value="export singed file from android studio using gradle config" />
     <MESSAGE value="add modify" />
     <MESSAGE value="add Diaglog Fragment Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Diaglog Fragment Test" />
+    <MESSAGE value="Add Loader Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Loader Test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -3798,32 +3806,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sprinklesLib/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="464">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="2720">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.105960265" vertical-offset="0" max-vertical-offset="1696">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/httpAsyncLib/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3831,7 +3817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="454">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3906,13 +3891,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/activity_annotation.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13513513" vertical-offset="131" max-vertical-offset="464">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="35" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../IDE/android-sdks/sources/android-19/android/test/InstrumentationTestCase.java">
@@ -3930,13 +3915,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/dialog_cus.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.64171124" vertical-offset="96" max-vertical-offset="624">
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/values/arrays.xml">
@@ -3947,13 +3932,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_test_dialog.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.035714" vertical-offset="27" max-vertical-offset="688">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/assets/basic_loaction_info.xml">
@@ -4033,20 +4018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31304348" vertical-offset="0" max-vertical-offset="460">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/LocationSelectFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1668" max-vertical-offset="2128">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MyFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="640">
@@ -4090,22 +4061,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/testloader_list_line.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22911695" vertical-offset="0" max-vertical-offset="419">
           <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="369" max-vertical-offset="1248">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding />
-        </state>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/AndroidManifest.xml">
@@ -4120,10 +4083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33381712" vertical-offset="794" max-vertical-offset="5920">
           <caret line="90" column="32" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
-          <folding>
-            <element signature="e#3405#3406#0" expanded="false" />
-            <element signature="e#3463#3464#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4131,7 +4090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62608695" vertical-offset="96" max-vertical-offset="3328">
           <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4139,33 +4097,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16255443" vertical-offset="864" max-vertical-offset="4256">
           <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32510886" vertical-offset="0" max-vertical-offset="689">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/activity_act_test_loader.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.714286" vertical-offset="0" max-vertical-offset="496">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="e#229#264#0" expanded="true" />
-            <element signature="e#290#325#0" expanded="true" />
-            <element signature="e#349#382#0" expanded="true" />
-            <element signature="e#409#442#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/loader/MyDataLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="2576">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4173,29 +4112,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1616">
           <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/loader/MyDataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2560">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="2592">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/activity_act_test_loader.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41149774" vertical-offset="0" max-vertical-offset="661">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62650603" vertical-offset="0" max-vertical-offset="1264">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/LocationSelectFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.069666184" vertical-offset="240" max-vertical-offset="1808">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/mainProject/libs/volley.jar!/com/android/volley/toolbox/StringRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34408602" vertical-offset="0" max-vertical-offset="651">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_test_volley.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="464">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/TestVolleyFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="864">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="944" max-vertical-offset="1168">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42720765" vertical-offset="365" max-vertical-offset="1072">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.48766327" vertical-offset="1392" max-vertical-offset="2768">
+          <caret line="138" column="49" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
           <folding />
         </state>
       </provider>

@@ -24,6 +24,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:19.+'
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile "org.androidannotations:androidannotations-api:$AAVersion"
+    compile files('libs/volley.jar')
     compile project(':httpAsyncLib')
     compile project(':sprinklesLib')
 }

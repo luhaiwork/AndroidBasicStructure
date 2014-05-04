@@ -55,7 +55,7 @@
         <!-- loader test -->
         <activity
             android:name="com.example.mainproject.ActTestLoader_"
-            android:label="@string/title_activity_act_test_loader"></activity>
+            android:label="@string/title_activity_act_test_loader" />
     </application>
 
 </manifest>

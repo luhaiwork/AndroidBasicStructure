@@ -418,3 +418,319 @@
 14:16:34.288 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
 14:16:34.305 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 453 ms], [Generate Sources = 182 ms], [Extract Manifest = 136 ms], [Process Annotations = 50 ms], [Find R Classes = 44 ms], [Validate Annotations = 24 ms], [Extract Annotations = 11 ms], 
 14:16:34.306 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+17:07:38.605 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+17:07:38.926 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 24 elements
+17:07:38.975 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+17:07:39.242 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+17:07:39.243 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+17:07:39.281 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:07:39.599 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:07:39.600 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+17:07:39.601 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+17:07:39.645 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment]
+17:07:39.647 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit]
+17:07:39.651 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View)]
+17:07:39.657 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+17:07:39.658 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+17:07:39.660 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+17:07:39.660 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+17:07:39.661 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+17:07:39.662 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews()]
+17:07:39.663 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+17:07:39.664 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+17:07:39.777 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+17:07:39.778 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+17:07:39.811 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.AnnotationActivity, com.example.mainproject.SprinklesActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.ActTestLoader]
+17:07:39.840 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.LocationSelectFragment]
+17:07:39.843 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+17:07:39.853 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 9
+17:07:39.855 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:07:39.857 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+17:07:39.892 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+17:07:39.917 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+17:07:39.941 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+17:07:39.954 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+17:07:39.984 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+17:07:39.988 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+17:07:40.2 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+17:07:40.37 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+17:07:40.56 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 1130 ms], [Validate Annotations = 325 ms], [Extract Manifest = 268 ms], [Generate Sources = 203 ms], [Process Annotations = 189 ms], [Find R Classes = 48 ms], [Extract Annotations = 46 ms], 
+17:07:40.57 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+11:25:25.859 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+11:25:25.968 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 25 elements
+11:25:26.64 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+11:25:26.327 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+11:25:26.328 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+11:25:26.366 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:25:26.442 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:25:26.444 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+11:25:26.445 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:25:26.457 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:25:26.460 [Daemon] ERROR o.a.h.AnnotationHelper:110 - @org.androidannotations.annotations.EFragment can only be used on an element that extends one of the following classes: [android.app.Fragment, android.support.v4.app.Fragment]
+11:25:26.462 [Daemon] WARN  o.a.p.ModelValidator:69 - Element EFragmentHandler unvalidated by 
+11:25:26.463 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit]
+11:25:26.472 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_testvolley(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View), btn_testvolley(android.view.View)]
+11:25:26.482 [Daemon] WARN  o.a.p.ModelValidator:69 - Element ClickHandler unvalidated by 
+11:25:26.483 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+11:25:26.485 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+11:25:26.487 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+11:25:26.489 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+11:25:26.490 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+11:25:26.492 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews(), afterViews()]
+11:25:26.493 [Daemon] WARN  o.a.p.ModelValidator:69 - Element AfterViewsHandler unvalidated by 
+11:25:26.494 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+11:25:26.495 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+11:25:26.521 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+11:25:26.522 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+11:25:26.537 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.MainActivity, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.SprinklesActivity]
+11:25:26.558 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment]
+11:25:26.561 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+11:25:26.569 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 9
+11:25:26.571 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:25:26.573 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+11:25:26.600 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+11:25:26.624 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+11:25:26.647 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+11:25:26.659 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+11:25:26.689 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+11:25:26.694 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+11:25:26.708 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+11:25:26.742 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+11:25:26.759 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 791 ms], [Extract Manifest = 311 ms], [Generate Sources = 190 ms], [Find R Classes = 73 ms], [Process Annotations = 73 ms], [Validate Annotations = 54 ms], [Extract Annotations = 47 ms], 
+11:25:26.760 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+11:26:21.989 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+11:26:22.32 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 25 elements
+11:26:22.42 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+11:26:22.46 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+11:26:22.47 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+11:26:22.51 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:26:22.64 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:26:22.64 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+11:26:22.65 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:26:22.67 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:26:22.68 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit]
+11:26:22.73 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_testvolley(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View), btn_testvolley(android.view.View)]
+11:26:22.79 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+11:26:22.80 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+11:26:22.81 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+11:26:22.82 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+11:26:22.83 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+11:26:22.84 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews(), afterViews()]
+11:26:22.84 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+11:26:22.85 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+11:26:22.91 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+11:26:22.92 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+11:26:22.102 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity, com.example.mainproject.ActTestLoader]
+11:26:22.118 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment, com.example.mainproject.MyFragment, com.example.mainproject.LocationSelectFragment]
+11:26:22.120 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+11:26:22.129 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 10
+11:26:22.130 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:26:22.131 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+11:26:22.154 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+11:26:22.178 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+11:26:22.200 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+11:26:22.212 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+11:26:22.241 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+11:26:22.245 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+11:26:22.259 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+11:26:22.291 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+11:26:22.308 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestVolleyFragment_
+11:26:22.325 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 292 ms], [Generate Sources = 195 ms], [Process Annotations = 44 ms], [Validate Annotations = 22 ms], [Find R Classes = 11 ms], [Extract Annotations = 9 ms], [Extract Manifest = 5 ms], 
+11:26:22.325 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+11:27:12.762 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+11:27:12.806 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 25 elements
+11:27:12.815 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+11:27:12.819 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+11:27:12.820 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+11:27:13.23 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:27:13.36 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:27:13.37 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+11:27:13.38 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:27:13.40 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:27:13.42 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit]
+11:27:13.46 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_testvolley(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View), btn_testvolley(android.view.View)]
+11:27:13.51 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+11:27:13.52 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+11:27:13.53 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+11:27:13.54 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+11:27:13.55 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+11:27:13.56 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews(), afterViews()]
+11:27:13.57 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+11:27:13.57 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+11:27:13.63 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+11:27:13.64 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+11:27:13.74 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.MainActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.AnnotationActivity, com.example.mainproject.SprinklesActivity]
+11:27:13.88 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.MyFragment, com.example.mainproject.TestVolleyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.LocationSelectFragment]
+11:27:13.90 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+11:27:13.99 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 10
+11:27:13.100 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:27:13.101 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+11:27:13.124 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+11:27:13.148 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+11:27:13.171 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+11:27:13.182 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+11:27:13.211 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+11:27:13.215 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+11:27:13.228 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+11:27:13.260 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+11:27:13.278 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestVolleyFragment_
+11:27:13.290 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 485 ms], [Find R Classes = 210 ms], [Generate Sources = 191 ms], [Process Annotations = 42 ms], [Validate Annotations = 21 ms], [Extract Annotations = 8 ms], [Extract Manifest = 5 ms], 
+11:27:13.290 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+11:38:20.54 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+11:38:20.100 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 25 elements
+11:38:20.113 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+11:38:20.253 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+11:38:20.254 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+11:38:20.261 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:38:20.276 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:38:20.277 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+11:38:20.278 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:38:20.281 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:38:20.282 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit, tv_result]
+11:38:20.287 [Daemon] ERROR o.a.h.AnnotationHelper:110 - @org.androidannotations.annotations.ViewById cannot be used on a private element
+11:38:20.288 [Daemon] WARN  o.a.p.ModelValidator:69 - Element ViewByIdHandler unvalidated by 
+11:38:20.289 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_testvolley(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View), btn_testvolley(android.view.View)]
+11:38:20.295 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+11:38:20.297 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+11:38:20.298 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+11:38:20.299 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+11:38:20.299 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+11:38:20.300 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews(), afterViews()]
+11:38:20.301 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+11:38:20.301 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+11:38:20.308 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+11:38:20.309 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+11:38:20.320 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.HttpTestActivity, com.example.mainproject.AnnotationActivity, com.example.mainproject.SprinklesActivity, com.example.mainproject.MainActivity, com.example.mainproject.ActTestLoader]
+11:38:20.341 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.TestVolleyFragment, com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment]
+11:38:20.343 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+11:38:20.352 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 10
+11:38:20.354 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:38:20.355 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+11:38:20.381 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+11:38:20.405 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+11:38:20.429 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+11:38:20.441 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+11:38:20.470 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+11:38:20.474 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+11:38:20.487 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+11:38:20.520 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+11:38:20.538 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestVolleyFragment_
+11:38:20.551 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 451 ms], [Generate Sources = 199 ms], [Extract Manifest = 141 ms], [Process Annotations = 50 ms], [Validate Annotations = 26 ms], [Find R Classes = 15 ms], [Extract Annotations = 11 ms], 
+11:38:20.551 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+11:38:37.984 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+11:38:38.28 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 25 elements
+11:38:38.37 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+11:38:38.42 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+11:38:38.42 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+11:38:38.46 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:38:38.59 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:38:38.60 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+11:38:38.60 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:38:38.62 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:38:38.64 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit, tv_result]
+11:38:38.69 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_testvolley(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View), btn_testvolley(android.view.View)]
+11:38:38.75 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+11:38:38.76 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+11:38:38.77 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+11:38:38.78 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+11:38:38.79 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+11:38:38.80 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews(), afterViews()]
+11:38:38.80 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+11:38:38.81 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+11:38:38.87 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+11:38:38.88 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+11:38:38.98 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.HttpTestActivity, com.example.mainproject.AnnotationActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:38:38.114 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.TestVolleyFragment, com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment]
+11:38:38.116 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+11:38:38.125 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 10
+11:38:38.127 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:38:38.128 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+11:38:38.151 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+11:38:38.174 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+11:38:38.197 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+11:38:38.208 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+11:38:38.238 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+11:38:38.242 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+11:38:38.255 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+11:38:38.287 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+11:38:38.304 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestVolleyFragment_
+11:38:38.317 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 289 ms], [Generate Sources = 192 ms], [Process Annotations = 44 ms], [Validate Annotations = 22 ms], [Find R Classes = 11 ms], [Extract Annotations = 8 ms], [Extract Manifest = 6 ms], 
+11:38:38.317 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+11:46:54.984 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+11:46:55.28 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 25 elements
+11:46:55.40 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+11:46:55.176 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+11:46:55.178 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+11:46:55.184 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:46:55.198 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:46:55.199 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+11:46:55.200 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:46:55.202 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:46:55.204 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit, tv_result]
+11:46:55.208 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_testvolley(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View), btn_testvolley(android.view.View)]
+11:46:55.214 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+11:46:55.216 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+11:46:55.217 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+11:46:55.218 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+11:46:55.219 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+11:46:55.220 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews(), afterViews()]
+11:46:55.221 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+11:46:55.226 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+11:46:55.233 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+11:46:55.234 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+11:46:55.245 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.ActTestLoader, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:46:55.266 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.TestVolleyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.MyFragment, com.example.mainproject.LocationSelectFragment]
+11:46:55.269 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+11:46:55.277 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 10
+11:46:55.279 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:46:55.280 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+11:46:55.306 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+11:46:55.330 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+11:46:55.353 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+11:46:55.365 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+11:46:55.394 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+11:46:55.398 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+11:46:55.411 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+11:46:55.444 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+11:46:55.461 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestVolleyFragment_
+11:46:55.473 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 445 ms], [Generate Sources = 196 ms], [Extract Manifest = 137 ms], [Process Annotations = 50 ms], [Validate Annotations = 29 ms], [Find R Classes = 15 ms], [Extract Annotations = 11 ms], 
+11:46:55.474 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
+11:47:26.908 [Daemon] INFO  o.a.AndroidAnnotationProcessor:85 - Initialize AndroidAnnotations 3.0.1 with options {androidManifestFile=E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml}
+11:47:26.950 [Daemon] INFO  o.a.AndroidAnnotationProcessor:109 - Start processing for 13 annotations on 25 elements
+11:47:26.960 [Daemon] DEBUG o.a.h.AndroidManifestFinder:98 - AndroidManifest.xml file found with specified path: E:\Development\github\MyAndroidProject\MyAndroidProject\mainProject\build\manifests\debug\AndroidManifest.xml
+11:47:26.964 [Daemon] INFO  o.a.AndroidAnnotationProcessor:172 - AndroidManifest.xml found: AndroidManifest [applicationPackage=com.example.mainproject, componentQualifiedNames=[com.example.mainproject.MainActivity_, com.example.mainproject.SettingsActivity, com.example.mainproject.HttpTestActivity_, com.example.mainproject.AnnotationActivity_, com.example.mainproject.SprinklesActivity_, com.example.mainproject.ActTestLoader_], permissionQualifiedNames=[android.permission.INTERNET], applicationClassName=com.example.mainproject.MyApplication_, libraryProject=false, debugabble=false, minSdkVersion=11, maxSdkVersion=-1, targetSdkVersion=18]
+11:47:26.965 [Daemon] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: com.example.mainproject.R
+11:47:26.968 [Daemon] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+11:47:26.981 [Daemon] INFO  o.a.p.ModelValidator:42 - Validating elements
+11:47:26.981 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EApplicationHandler: [com.example.mainproject.MyApplication]
+11:47:26.982 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [com.example.mainproject.ActTestLoader, com.example.mainproject.AnnotationActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.MainActivity, com.example.mainproject.SprinklesActivity]
+11:47:26.984 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with EFragmentHandler: [com.example.mainproject.LocationSelectFragment, com.example.mainproject.MyFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:47:26.985 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lv_list, tv_result, tv_result, sp_province, sp_city, sp_district, annotation_test, tv_testfragment, btn_test_notice, btn_add, et_val, lv_data, et_search, et_valforedit, btn_edit, tv_result]
+11:47:26.990 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [addData(), testThread(), testGet(), testEntity(), testPost(), testUploadFile(), onClick(android.view.View), btn_testvolley(android.view.View), btn_sprinkles(), btn_locationSelect(), btn_test_notice(), btn_add(), btn_edit(), test_transaction(), test_transaction_async(), btn_dialog_commonTest(android.view.View), btn_dialog_itemTest(android.view.View), btn_multicheck_dialog(android.view.View), btn_cus_dialog(android.view.View), btn_testvolley(android.view.View)]
+11:47:26.996 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemClickHandler: [lv_dataItemClicked(android.database.Cursor)]
+11:47:26.997 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with ItemLongClickHandler: [lv_dataItemLongClicked(android.database.Cursor)]
+11:47:26.999 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with SystemServiceHandler: [notificationManager]
+11:47:26.999 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AppHandler: [myApplication]
+11:47:27.0 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with TextChangeHandler: [onTextChangesOnEtSearch()]
+11:47:27.1 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [afterView(), afterViewLoad(), afterviewload(), afterView(), afterView(), afterView(), afterExcute(), afterViews(), afterViews()]
+11:47:27.2 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [testUIThead(int)]
+11:47:27.2 [Daemon] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [doSomethingInThead()]
+11:47:27.9 [Daemon] INFO  o.a.p.ModelProcessor:73 - Processing root elements
+11:47:27.9 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EApplicationHandler: [com.example.mainproject.MyApplication]
+11:47:27.20 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EActivityHandler: [com.example.mainproject.SprinklesActivity, com.example.mainproject.HttpTestActivity, com.example.mainproject.ActTestLoader, com.example.mainproject.MainActivity, com.example.mainproject.AnnotationActivity]
+11:47:27.34 [Daemon] DEBUG o.a.p.ModelProcessor:80 - Processing root elements EFragmentHandler: [com.example.mainproject.MyFragment, com.example.mainproject.LocationSelectFragment, com.example.mainproject.TestDialogFragment, com.example.mainproject.TestVolleyFragment]
+11:47:27.36 [Daemon] INFO  o.a.p.ModelProcessor:104 - Processing enclosed elements
+11:47:27.44 [Daemon] INFO  o.a.AndroidAnnotationProcessor:251 - Number of files generated by AndroidAnnotations: 10
+11:47:27.45 [Daemon] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+11:47:27.47 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.ActTestLoader_
+11:47:27.70 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.AnnotationActivity_
+11:47:27.94 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.HttpTestActivity_
+11:47:27.116 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.LocationSelectFragment_
+11:47:27.127 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MainActivity_
+11:47:27.156 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyApplication_
+11:47:27.160 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.MyFragment_
+11:47:27.173 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.SprinklesActivity_
+11:47:27.205 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestDialogFragment_
+11:47:27.223 [Daemon] DEBUG o.a.g.SourceCodewriter:55 - Generating class: com.example.mainproject.TestVolleyFragment_
+11:47:27.236 [Daemon] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 286 ms], [Generate Sources = 192 ms], [Process Annotations = 41 ms], [Validate Annotations = 22 ms], [Find R Classes = 10 ms], [Extract Annotations = 8 ms], [Extract Manifest = 5 ms], 
+11:47:27.236 [Daemon] INFO  o.a.AndroidAnnotationProcessor:123 - Finish processing
