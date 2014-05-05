@@ -11,3 +11,4 @@ This is a test project working with httpasync,sprinkles,android-annotation.
 2014/05/05 add Volley test.
 
 
+![截图](Screenshot.png)
