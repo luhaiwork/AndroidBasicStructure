@@ -29,7 +29,8 @@
             <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.example.mainproject.MainActivity_"/>
         </activity>
         <activity android:label="@string/title_activity_sprinkles" android:name="com.example.mainproject.SprinklesActivity_"/>
-        <activity android:label="@string/title_activity_main_activity_test" android:name="com.example.mainproject.test.MainActivityTest"/>
+        <!-- loader test -->
+        <activity android:label="@string/title_activity_act_test_loader" android:name="com.example.mainproject.ActTestLoader_"/>
     </application>
 
 </manifest>

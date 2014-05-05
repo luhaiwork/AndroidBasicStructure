@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/values/arrays.xml -->
+    <eat-comment />
+
+    <array name="array_dialog">
+        <item>red</item>
+        <item>blue</item>
+        <item>yellow</item>
+    </array>
     <!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment />
 
@@ -577,6 +585,7 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">MainProject</string>
     <string name="close">close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="myval">ssssssssssssssssssss</string>
     <string name="open">open</string>
@@ -600,6 +609,7 @@
     <!-- From: file:/E:/Development/github/MyAndroidProject/MyAndroidProject/mainProject/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <string name="title_activity_act_test_loader">ActTestLoader</string>
     <string name="title_activity_annotation">AnnotationActivity</string>
     <string name="title_activity_http_test">HttpTestActivity</string>
     <string name="title_activity_main_activity_test">MainActivityTest</string>
