@@ -3,15 +3,12 @@ package com.example.mainproject.custom;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.RelativeLayout;
 import android.widget.Scroller;
 
-import com.example.mainproject.R;
-
 /**
- * Created by Administrator on 2014/5/7.
+ * Created by luh on 2014/5/7.
  */
 public class MoveRelativeLayout extends RelativeLayout {
     Scroller scroller;
@@ -19,7 +16,6 @@ public class MoveRelativeLayout extends RelativeLayout {
      * 处理我们拖动ListView item的逻辑
      */
     int downX = 0;
-    RelativeLayout rl_test = null;
 
     public MoveRelativeLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -30,8 +26,7 @@ public class MoveRelativeLayout extends RelativeLayout {
     @Override
     public void computeScroll() {
         if (scroller.computeScrollOffset()) {
-            Log.e("tag", "scroll scroller.getCurrX() :" + scroller.getCurrX());
-            rl_test.scrollTo(scroller.getCurrX(), scroller.getCurrY());
+            scrollTo(scroller.getCurrX(), scroller.getCurrY());
             postInvalidate();
         }
     }
@@ -40,39 +35,42 @@ public class MoveRelativeLayout extends RelativeLayout {
     public boolean onTouchEvent(MotionEvent ev) {
         final int action = ev.getAction();
         int x = (int) ev.getX();
-        rl_test = (RelativeLayout) findViewById(R.id.rl_test);
         // 假如scroller滚动还没有结束，我们直接返回
-//        if (!scroller.isFinished()) {
-//           return false;
-//        }
+        if (scroller.computeScrollOffset()) {
+            return false;
+        }
         switch (action) {
             case MotionEvent.ACTION_DOWN:
                 downX = x;
                 break;
             case MotionEvent.ACTION_MOVE:
                 int deltaX = downX - x;
-                double toX = (-1 * rl_test.getScrollX()) + x - downX;
+                double toX = (-1 * getScrollX()) + x - downX;
                 if (toX <= -1 * dpToPx(100)) {
                     toX = -1 * dpToPx(100);
-                    deltaX = (int) (-1 * (toX - (-1 * rl_test.getScrollX())));
+                    deltaX = (int) (-1 * (toX - (-1 * getScrollX())));
                 } else if (toX > 0) {
                     toX = 0;
-                    deltaX = (int) (-1 * (toX - (-1 * rl_test.getScrollX())));
+                    deltaX = (int) (-1 * (toX - (-1 * getScrollX())));
                 }
                 downX = x;
                 // 手指拖动itemView滚动, deltaX大于0向左滚动，小于0向右滚
-                rl_test.scrollBy(deltaX, 0);
-//                return true;  //拖动的时候ListView不滚动
+                scrollBy(deltaX, 0);
                 break;
             case MotionEvent.ACTION_UP:
                 //open menu
-//                if ((-1 * rl_test.getScaleX()) < (-1 * dpToPx(50))) {
-//                    scroller.startScroll(rl_test.getScrollX(),rl_test.getScrollY(),((-1 * dpToPx(100))),rl_test.getScrollY(), 0);
-//                } else {
-//                    //close menu
-//                    scroller.startScroll(rl_test.getScrollX(),rl_test.getScrollY(),0,rl_test.getScrollY(), 0);
-//                }
-                scroller.startScroll(rl_test.getScrollX(), rl_test.getScrollY(), -100, 0, 1000);
+                //getScrollX必须*-1 后使用
+                int moveValue = 0;
+                if ((-1 * getScrollX()) < (-1 * dpToPx(50))) {
+                    moveValue = -1 * ((-1 * dpToPx(100)) - (-1 * getScrollX()));
+                    scroller.startScroll(getScrollX(), getScrollY(), moveValue, getScrollY(), Math.abs(moveValue) * 2);
+                } else {
+                    //close menu
+                    moveValue = -1 * (0 - (-1 * getScrollX()));
+                    scroller.startScroll(getScrollX(), getScrollY(), moveValue, getScrollY(), Math.abs(moveValue) * 2);
+                }
+                //必须加入invalidate否则不会有滚动效果
+                invalidate();
                 break;
         }
 
