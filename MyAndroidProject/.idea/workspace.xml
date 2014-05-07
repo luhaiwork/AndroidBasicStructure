@@ -39,24 +39,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.mainproject" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c3f00fa-091c-4b42-9de8-548b4a5229aa" name="Default" comment="Add Velley Test">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/MoveRelativeLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/SlideCutListView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/SlideListViewFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_slide_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_slide_list_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/HttpTestActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/HttpTestActivity_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/LocationSelectFragment_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/LocationSelectFragment_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java" afterPath="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MainActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/MainActivity_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/r/debug/com/example/mainproject/R.java" afterPath="$PROJECT_DIR$/mainProject/build/source/r/debug/com/example/mainproject/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/SprinklesActivity_.java" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/debug/com/example/mainproject/SprinklesActivity_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/mainProject/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/build/source/apt/androidannotations.log" afterPath="$PROJECT_DIR$/mainProject/build/source/apt/androidannotations.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/httpAsyncLib/httpAsyncLib.iml" afterPath="$PROJECT_DIR$/httpAsyncLib/httpAsyncLib.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mainProject/mainProject.iml" afterPath="$PROJECT_DIR$/mainProject/mainProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sprinklesLib/sprinklesLib.iml" afterPath="$PROJECT_DIR$/sprinklesLib/sprinklesLib.iml" />
+    <list default="true" id="3c3f00fa-091c-4b42-9de8-548b4a5229aa" name="Default" comment="Add slide listview Test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MainProject.iws" />
@@ -139,20 +122,8 @@
       <file leaf-file-name="MoveRelativeLayout.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/MoveRelativeLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3366094" vertical-offset="714" max-vertical-offset="1632">
-              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SlideCutListView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/SlideCutListView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3651" max-vertical-offset="4879">
-              <caret line="231" column="46" selection-start-line="231" selection-start-column="46" selection-end-line="231" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.5011338" vertical-offset="102" max-vertical-offset="1581">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +134,8 @@
       <file leaf-file-name="fragment_slide_list_view.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_slide_list_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.107142" vertical-offset="0" max-vertical-offset="612">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state vertical-scroll-proportion="-2.5714285" vertical-offset="47" max-vertical-offset="731">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -3439,9 +3410,9 @@
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MyBtn.java" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MoveFrameLayout.java" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/SlideListViewFragment.java" />
-        <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_slide_list_view.xml" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/MoveRelativeLayout.java" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/SlideCutListView.java" />
+        <option value="$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_slide_list_view.xml" />
         <option value="$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/MoveRelativeLayout.java" />
       </list>
     </option>
@@ -3699,74 +3670,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyAndroidProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyAndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainProject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainproject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyAndroidProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyAndroidProject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainProject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainproject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4186,7 +4089,15 @@
       <created>1399196045104</created>
       <updated>1399196045104</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add slide listview Test">
+      <created>1399451078130</created>
+      <updated>1399451078130</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Add slide listview Test">
+      <created>1399454223131</created>
+      <updated>1399454223131</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -4227,14 +4138,14 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2234957" sideWeight="0.27142859" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31983805" sideWeight="0.48402777" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39406207" sideWeight="0.86319447" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.365722" sideWeight="0.86319447" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19109195" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26319444" sideWeight="0.59244263" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18194444" sideWeight="0.59244263" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31039137" sideWeight="0.8506944" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -4265,7 +4176,8 @@
     <MESSAGE value="add Diaglog Fragment Test" />
     <MESSAGE value="Add Loader Test" />
     <MESSAGE value="Add Velley Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Velley Test" />
+    <MESSAGE value="Add slide listview Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add slide listview Test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6780627" />
@@ -4641,6 +4553,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_slide_list_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5714285" vertical-offset="47" max-vertical-offset="731">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/SlideListViewFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
@@ -4649,31 +4572,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mainProject/src/main/res/layout/fragment_slide_list_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.107142" vertical-offset="0" max-vertical-offset="612">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/SlideCutListView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3651" max-vertical-offset="4879">
-          <caret line="231" column="46" selection-start-line="231" selection-start-column="46" selection-end-line="231" selection-end-column="46" />
+        <state vertical-scroll-proportion="1.1927438" vertical-offset="4166" max-vertical-offset="4913">
+          <caret line="278" column="6" selection-start-line="278" selection-start-column="6" selection-end-line="278" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainProject/src/main/java/com/example/mainproject/custom/MoveRelativeLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3366094" vertical-offset="714" max-vertical-offset="1632">
-          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5011338" vertical-offset="102" max-vertical-offset="1581">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
