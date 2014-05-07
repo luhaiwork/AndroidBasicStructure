@@ -63,6 +63,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="test volley"></Button>
+
+        <Button
+            android:id="@+id/btn_testSlideListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="btn_testSlideListView"></Button>
     </LinearLayout>
 
 </android.support.v4.widget.DrawerLayout>

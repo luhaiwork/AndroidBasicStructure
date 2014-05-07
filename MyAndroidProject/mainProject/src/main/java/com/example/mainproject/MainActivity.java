@@ -98,6 +98,20 @@ public class MainActivity extends FragmentActivity {
         drawer.closeDrawer(drawerLayout);
     }
 
+    /**
+     * btn_testSlideListView
+     *
+     * @param view
+     */
+    @Click
+    public void btn_testSlideListView(View view) {
+        android.support.v4.app.FragmentManager fm = getSupportFragmentManager();
+        FragmentTransaction beginTransaction = fm.beginTransaction();
+        beginTransaction.replace(R.id.main, new SlideListViewFragment_(), "SlideListViewFragment");
+        beginTransaction.commit();
+        drawer.closeDrawer(drawerLayout);
+    }
+
     @Click
     void btn_sprinkles() {
         Intent intent = new Intent(this, SprinklesActivity_.class);
@@ -194,5 +208,6 @@ public class MainActivity extends FragmentActivity {
         Log.e("test", "parent menu item click");
         return super.onOptionsItemSelected(item);
     }
+
 
 }

@@ -81,9 +81,9 @@ public final class SprinklesActivity_
     public void onViewChanged(HasViews hasViews) {
         et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
         btn_add = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_add));
-        et_valforedit = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_valforedit));
-        et_search = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_search));
         btn_edit = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_edit));
+        et_search = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_search));
+        et_valforedit = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_valforedit));
         lv_data = ((ListView) hasViews.findViewById(com.example.mainproject.R.id.lv_data));
         {
             View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction);
@@ -94,21 +94,6 @@ public final class SprinklesActivity_
                     @Override
                     public void onClick(View view) {
                         SprinklesActivity_.this.test_transaction();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_add);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        SprinklesActivity_.this.btn_add();
                     }
 
                 }
@@ -139,6 +124,21 @@ public final class SprinklesActivity_
                     @Override
                     public void onClick(View view) {
                         SprinklesActivity_.this.test_transaction_async();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_add);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        SprinklesActivity_.this.btn_add();
                     }
 
                 }

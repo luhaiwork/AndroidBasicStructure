@@ -173,6 +173,21 @@ public final class MainActivity_
             }
         }
         {
+            View view = hasViews.findViewById(id.btn_testSlideListView);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        MainActivity_.this.btn_testSlideListView(view);
+                    }
+
+                }
+                );
+            }
+        }
+        {
             View view = hasViews.findViewById(id.btn_testvolley);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {

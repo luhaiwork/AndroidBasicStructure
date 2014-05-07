@@ -3,12 +3,6 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="EclipseCodeFormatter">
-    <option name="defaultSettings" value="true" />
-    <option name="id" value="1395905420488" />
-    <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="C:/tmp/code-style.xml" />
-  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
