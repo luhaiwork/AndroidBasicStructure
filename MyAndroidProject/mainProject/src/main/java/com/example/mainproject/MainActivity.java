@@ -11,6 +11,7 @@ import org.androidannotations.annotations.ViewById;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentActivity;
@@ -138,8 +139,10 @@ public class MainActivity extends FragmentActivity {
         // Toast.makeText(this, tag.getTagName(), Toast.LENGTH_SHORT).show();
         // getActionBar().setDisplayHomeAsUpEnabled(true);
         // 设置显示drawer的提示button
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-        getActionBar().setHomeButtonEnabled(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            getActionBar().setDisplayHomeAsUpEnabled(true);
+            getActionBar().setHomeButtonEnabled(true);
+        }
         drawer = (DrawerLayout) findViewById(R.id.drawer);
         drawerToggle = new ActionBarDrawerToggle(this, drawer,
                 R.drawable.ic_drawer, R.string.open, R.string.close) {
@@ -150,7 +153,9 @@ public class MainActivity extends FragmentActivity {
 
             @Override
             public void onDrawerOpened(View drawerView) {
-                getActionBar().setTitle("app name");
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+                    getActionBar().setTitle("app name");
+                }
                 super.onDrawerOpened(drawerView);
             }
         };

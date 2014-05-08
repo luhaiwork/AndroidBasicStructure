@@ -21,11 +21,12 @@ import org.androidannotations.annotations.ViewById;
 
 @EActivity(R.layout.activity_annotation)
 public class AnnotationActivity extends FragmentActivity {
-    private String TAG = AnnotationActivity.class.getSimpleName().toString();
     @App
     MyApplication myApplication;
     @ViewById
     TextView tv_result;
+    private String TAG = AnnotationActivity.class.getSimpleName().toString();
+
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +36,9 @@ public class AnnotationActivity extends FragmentActivity {
         beginTransaction.add(R.id.myFragment, new MyFragment_(), "mytag");
         beginTransaction.commit();
         Log.e("test", "test");
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+            getActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
     }
 

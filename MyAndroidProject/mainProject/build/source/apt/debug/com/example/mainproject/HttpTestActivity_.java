@@ -9,6 +9,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup.LayoutParams;
@@ -61,17 +62,28 @@ public final class HttpTestActivity_
         return new HttpTestActivity_.IntentBuilder_(context);
     }
 
-    public static HttpTestActivity_.IntentBuilder_ intent(android.app.Fragment fragment) {
-        return new HttpTestActivity_.IntentBuilder_(fragment);
-    }
-
-    public static HttpTestActivity_.IntentBuilder_ intent(android.support.v4.app.Fragment supportFragment) {
+    public static HttpTestActivity_.IntentBuilder_ intent(Fragment supportFragment) {
         return new HttpTestActivity_.IntentBuilder_(supportFragment);
     }
 
     @Override
     public void onViewChanged(HasViews hasViews) {
         tv_result = ((TextView) hasViews.findViewById(id.tv_result));
+        {
+            View view = hasViews.findViewById(id.btn_file);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    @Override
+                    public void onClick(View view) {
+                        HttpTestActivity_.this.testUploadFile();
+                    }
+
+                }
+                );
+            }
+        }
         {
             View view = hasViews.findViewById(id.btn_get);
             if (view!= null) {
@@ -81,21 +93,6 @@ public final class HttpTestActivity_
                     @Override
                     public void onClick(View view) {
                         HttpTestActivity_.this.testGet();
-                    }
-
-                }
-                );
-            }
-        }
-        {
-            View view = hasViews.findViewById(id.btn_entity);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    @Override
-                    public void onClick(View view) {
-                        HttpTestActivity_.this.testEntity();
                     }
 
                 }
@@ -118,14 +115,14 @@ public final class HttpTestActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.btn_file);
+            View view = hasViews.findViewById(id.btn_entity);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        HttpTestActivity_.this.testUploadFile();
+                        HttpTestActivity_.this.testEntity();
                     }
 
                 }
@@ -139,21 +136,14 @@ public final class HttpTestActivity_
 
         private Context context_;
         private final Intent intent_;
-        private android.app.Fragment fragment_;
-        private android.support.v4.app.Fragment fragmentSupport_;
+        private Fragment fragmentSupport_;
 
         public IntentBuilder_(Context context) {
             context_ = context;
             intent_ = new Intent(context, HttpTestActivity_.class);
         }
 
-        public IntentBuilder_(android.app.Fragment fragment) {
-            fragment_ = fragment;
-            context_ = fragment.getActivity();
-            intent_ = new Intent(context_, HttpTestActivity_.class);
-        }
-
-        public IntentBuilder_(android.support.v4.app.Fragment fragment) {
+        public IntentBuilder_(Fragment fragment) {
             fragmentSupport_ = fragment;
             context_ = fragment.getActivity();
             intent_ = new Intent(context_, HttpTestActivity_.class);
@@ -176,14 +166,10 @@ public final class HttpTestActivity_
             if (fragmentSupport_!= null) {
                 fragmentSupport_.startActivityForResult(intent_, requestCode);
             } else {
-                if (fragment_!= null) {
-                    fragment_.startActivityForResult(intent_, requestCode);
+                if (context_ instanceof Activity) {
+                    ((Activity) context_).startActivityForResult(intent_, requestCode);
                 } else {
-                    if (context_ instanceof Activity) {
-                        ((Activity) context_).startActivityForResult(intent_, requestCode);
-                    } else {
-                        context_.startActivity(intent_);
-                    }
+                    context_.startActivity(intent_);
                 }
             }
         }
