@@ -63,9 +63,9 @@ public final class LocationSelectFragment_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        sp_province = ((Spinner) hasViews.findViewById(com.example.mainproject.R.id.sp_province));
-        sp_district = ((Spinner) hasViews.findViewById(com.example.mainproject.R.id.sp_district));
         sp_city = ((Spinner) hasViews.findViewById(com.example.mainproject.R.id.sp_city));
+        sp_district = ((Spinner) hasViews.findViewById(com.example.mainproject.R.id.sp_district));
+        sp_province = ((Spinner) hasViews.findViewById(com.example.mainproject.R.id.sp_province));
         afterView();
     }
 
