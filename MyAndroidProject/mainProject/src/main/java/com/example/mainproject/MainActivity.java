@@ -208,9 +208,13 @@ public class MainActivity extends FragmentActivity {
         // 用于控制用户点击菜单左侧按钮时drawer的开关
         if (drawerToggle.onOptionsItemSelected(item)) {
             return true;
+        } else if (item.getItemId() == R.id.action_settings) {
+            Intent intent = new Intent(this, MySettingActivity_.class);
+            startActivity(intent);
+        } else {
+            Toast.makeText(this, "parent menu click", Toast.LENGTH_SHORT).show();
+            Log.e("test", "parent menu item click");
         }
-        Toast.makeText(this, "parent menu click", Toast.LENGTH_SHORT).show();
-        Log.e("test", "parent menu item click");
         return super.onOptionsItemSelected(item);
     }
 

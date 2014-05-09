@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- opens a subscreen of settings -->
+    <PreferenceScreen
+        android:key="button_voicemail_category_key"
+        android:persistent="false"
+        android:title="voicemail">
+        <ListPreference
+            android:defaultValue="11"
+            android:key="button_voicemail_provider_key"
+            android:title="voicemail_provider" />
+        <EditTextPreference
+            android:defaultValue="dfssdfsdfsdf"
+            android:key="et_test"
+            android:title="text title"></EditTextPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="cb_test"
+            android:title="check box value title"></CheckBoxPreference>
+    </PreferenceScreen>
+</PreferenceScreen>
