@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.example.mainproject.MySettingFragment"
+        android:summary="prefs_summ_category_one"
+        android:title="prefs_category_one" />
+    <header
+        android:fragment="com.example.mainproject.MySettingFragment"
+        android:summary="prefs_summ_category_two"
+        android:title="prefs_category_two">
+        <!-- key/value pairs can be included as arguments for the fragment. -->
+        <extra
+            android:name="someKey"
+            android:value="someHeaderValue" />
+    </header>
+</preference-headers>

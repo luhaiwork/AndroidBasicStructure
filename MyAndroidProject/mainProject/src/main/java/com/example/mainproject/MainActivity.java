@@ -10,6 +10,7 @@ import org.androidannotations.annotations.ViewById;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.os.Build;
 import android.os.Bundle;
@@ -45,11 +46,20 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         Log.e("tag", "===========debuglog++++++++++++++++++++");
         super.onCreate(savedInstanceState);
+        SharedPreferences test = getSharedPreferences("test", MODE_PRIVATE);
+        SharedPreferences.Editor edit = test.edit();
+        edit.putString("test", "test");
+        edit.commit();
+        test = getSharedPreferences("test", MODE_WORLD_READABLE);
+        edit = test.edit();
+        edit.putString("test", "test");
+        edit.commit();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
+
         return true;
     }
 
@@ -210,6 +220,9 @@ public class MainActivity extends FragmentActivity {
             return true;
         } else if (item.getItemId() == R.id.action_settings) {
             Intent intent = new Intent(this, MySettingActivity_.class);
+            startActivity(intent);
+        } else if (item.getItemId() == R.id.action_settings_header) {
+            Intent intent = new Intent(this, PreferenceHeaderActivity.class);
             startActivity(intent);
         } else {
             Toast.makeText(this, "parent menu click", Toast.LENGTH_SHORT).show();

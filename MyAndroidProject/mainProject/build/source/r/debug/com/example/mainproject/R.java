@@ -950,6 +950,7 @@ containing a value of this type.
         public static final int action_menu_presenter=0x7f090016;
         public static final int action_mode_close_button=0x7f090024;
         public static final int action_settings=0x7f09006e;
+        public static final int action_settings_header=0x7f09006f;
         public static final int activity_chooser_view_content=0x7f090025;
         public static final int always=0x7f09000f;
         public static final int annotation_test=0x7f090048;
@@ -1084,18 +1085,19 @@ containing a value of this type.
         public static final int activity_main=0x7f03001b;
         public static final int activity_main_activity_test=0x7f03001c;
         public static final int activity_my_setting=0x7f03001d;
-        public static final int activity_sprinkles=0x7f03001e;
-        public static final int dialog_cus=0x7f03001f;
-        public static final int fragment_location_select=0x7f030020;
-        public static final int fragment_location_select_province_line=0x7f030021;
-        public static final int fragment_myfragmenttop=0x7f030022;
-        public static final int fragment_slide_list_item=0x7f030023;
-        public static final int fragment_slide_list_view=0x7f030024;
-        public static final int fragment_test_dialog=0x7f030025;
-        public static final int fragment_test_volley=0x7f030026;
-        public static final int list_line=0x7f030027;
-        public static final int support_simple_spinner_dropdown_item=0x7f030028;
-        public static final int testloader_list_line=0x7f030029;
+        public static final int activity_preference_header=0x7f03001e;
+        public static final int activity_sprinkles=0x7f03001f;
+        public static final int dialog_cus=0x7f030020;
+        public static final int fragment_location_select=0x7f030021;
+        public static final int fragment_location_select_province_line=0x7f030022;
+        public static final int fragment_myfragmenttop=0x7f030023;
+        public static final int fragment_slide_list_item=0x7f030024;
+        public static final int fragment_slide_list_view=0x7f030025;
+        public static final int fragment_test_dialog=0x7f030026;
+        public static final int fragment_test_volley=0x7f030027;
+        public static final int list_line=0x7f030028;
+        public static final int support_simple_spinner_dropdown_item=0x7f030029;
+        public static final int testloader_list_line=0x7f03002a;
     }
     public static final class menu {
         public static final int act_test_loader=0x7f0e0000;
@@ -1104,7 +1106,8 @@ containing a value of this type.
         public static final int main=0x7f0e0003;
         public static final int main_activity_test=0x7f0e0004;
         public static final int my_setting=0x7f0e0005;
-        public static final int sprinkles=0x7f0e0006;
+        public static final int preference_header=0x7f0e0006;
+        public static final int sprinkles=0x7f0e0007;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0c0000;
@@ -1146,8 +1149,9 @@ containing a value of this type.
         public static final int title_activity_http_test=0x7f0c0024;
         public static final int title_activity_main_activity_test=0x7f0c0025;
         public static final int title_activity_my_setting=0x7f0c0026;
-        public static final int title_activity_settings=0x7f0c0027;
-        public static final int title_activity_sprinkles=0x7f0c0028;
+        public static final int title_activity_preference_header=0x7f0c0027;
+        public static final int title_activity_settings=0x7f0c0028;
+        public static final int title_activity_sprinkles=0x7f0c0029;
     }
     public static final class style {
         /** 
@@ -1305,9 +1309,10 @@ containing a value of this type.
     public static final class xml {
         public static final int pref_data_sync=0x7f050000;
         public static final int pref_general=0x7f050001;
-        public static final int pref_headers=0x7f050002;
-        public static final int pref_notification=0x7f050003;
-        public static final int preferences=0x7f050004;
+        public static final int pref_header=0x7f050002;
+        public static final int pref_headers=0x7f050003;
+        public static final int pref_notification=0x7f050004;
+        public static final int preferences=0x7f050005;
     }
     public static final class styleable {
         /** Attributes that can be used with a ActionBar.
