@@ -4,7 +4,7 @@ buildscript {
     }
     dependencies {
         // replace with the current version of the Android plugin
-        classpath 'com.android.tools.build:gradle:0.7+'
+        classpath 'com.android.tools.build:gradle:0.11.+'
         // the latest version of the android-apt plugin
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.2+'
     }
@@ -36,7 +36,7 @@ apt {
 }
 android {
     compileSdkVersion 19
-    buildToolsVersion "19.0.3"
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
         minSdkVersion 10
@@ -53,7 +53,7 @@ android {
 //    }
     signingConfigs {
         release {
-            storeFile file("E:\\Development\\mykeystore\\mykeystoreForTest")
+            storeFile file("D:\\USE\\Development\\AndroidKeyStore\\MyKeyStore")
             storePassword "111111"
             keyAlias "mykeystoreForTest"
             keyPassword "111111"
