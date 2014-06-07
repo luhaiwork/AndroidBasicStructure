@@ -106,7 +106,7 @@ public class SprinklesActivity extends Activity {
 	void afterExcute() {
 		// 加载list数据
 		ManyQuery<Note> many = Query.many(Note.class, "select * from Notes",
-                null);
+                "");
         Cursor cursor = many.get().getCursor();
         String[] from = { "content" };
 		int[] to = { R.id.tv_note };
