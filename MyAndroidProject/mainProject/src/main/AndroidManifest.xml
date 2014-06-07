@@ -19,7 +19,7 @@
         <activity
             android:name="com.example.mainproject.MainActivity_"
             android:label="@string/app_name">
-        <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -44,7 +44,7 @@
             android:label="@string/title_activity_annotation"
             android:parentActivityName="com.example.mainproject.MainActivity_">
 
-        <!-- Parent activity meta-data to support API level 7+ -->
+            <!-- Parent activity meta-data to support API level 7+ -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.mainproject.MainActivity_" />
@@ -63,5 +63,4 @@
             android:name="com.example.mainproject.PreferenceHeaderActivity"
             android:label="@string/title_activity_preference_header"></activity>
     </application>
-    <!--sdlfkjsdlkfjggggg-->
 </manifest>
