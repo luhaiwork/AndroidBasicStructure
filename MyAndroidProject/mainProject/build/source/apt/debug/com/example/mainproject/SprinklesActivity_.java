@@ -76,12 +76,12 @@ public final class SprinklesActivity_
 
     @Override
     public void onViewChanged(HasViews hasViews) {
-        btn_add = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_add));
         et_val = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_val));
+        btn_add = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_add));
         lv_data = ((ListView) hasViews.findViewById(com.example.mainproject.R.id.lv_data));
-        et_search = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_search));
         btn_edit = ((Button) hasViews.findViewById(com.example.mainproject.R.id.btn_edit));
         et_valforedit = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_valforedit));
+        et_search = ((EditText) hasViews.findViewById(com.example.mainproject.R.id.et_search));
         {
             View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction_async);
             if (view!= null) {
@@ -98,14 +98,14 @@ public final class SprinklesActivity_
             }
         }
         {
-            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_add);
+            View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        SprinklesActivity_.this.btn_add();
+                        SprinklesActivity_.this.test_transaction();
                     }
 
                 }
@@ -128,14 +128,14 @@ public final class SprinklesActivity_
             }
         }
         {
-            View view = hasViews.findViewById(com.example.mainproject.R.id.test_transaction);
+            View view = hasViews.findViewById(com.example.mainproject.R.id.btn_add);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        SprinklesActivity_.this.test_transaction();
+                        SprinklesActivity_.this.btn_add();
                     }
 
                 }

@@ -80,14 +80,14 @@ public final class MainActivity_
     public void onViewChanged(HasViews hasViews) {
         annotation_test = ((Button) hasViews.findViewById(id.annotation_test));
         {
-            View view = hasViews.findViewById(id.btn_testSlideListView);
+            View view = hasViews.findViewById(id.btn_sprinkles);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.btn_testSlideListView(view);
+                        MainActivity_.this.btn_sprinkles();
                     }
 
                 }
@@ -110,14 +110,14 @@ public final class MainActivity_
             }
         }
         {
-            View view = hasViews.findViewById(id.btn_sprinkles);
+            View view = hasViews.findViewById(id.btn_testSlideListView);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     @Override
                     public void onClick(View view) {
-                        MainActivity_.this.btn_sprinkles();
+                        MainActivity_.this.btn_testSlideListView(view);
                     }
 
                 }
